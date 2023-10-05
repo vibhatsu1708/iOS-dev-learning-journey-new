@@ -15,7 +15,7 @@ struct ContentView: View {
                 .foregroundStyle(.orange)
             Text("Hello, SwiftUI!")
         }
-        .padding([.bottom, .leading], 20)
+        .padding()
     }
 }
 
