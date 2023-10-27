@@ -23,7 +23,6 @@ class FirstViewController: UIViewController {
         
         setMapContraints()
         
-        navigationItem.title = "map"
         initialLocation = CLLocation(latitude: 37.422131, longitude: -122.084801)
         mapView.centerToLocation(location: initialLocation!)
         
@@ -42,7 +41,10 @@ class FirstViewController: UIViewController {
     
     func setButtonConstraints() {
         let button = UIButton(type: .system)
-        button.setTitle("My Visits", for: .normal)
+//        button.setTitle("My Visits", for: .normal)
+        if let visitsIcon = UIImage(systemName: "mappin.and.ellipse.circle.fill") {
+            button.setImage(visitsIcon, for: .normal)
+        }
         button.titleLabel?.font = .systemFont(ofSize: 19.0, weight: .bold)
         button.backgroundColor = .white
         button.setTitleColor(.black, for: .normal)
@@ -52,7 +54,7 @@ class FirstViewController: UIViewController {
         view.addSubview(button)
         
         button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        button.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 50).isActive = true
         button.heightAnchor.constraint(equalToConstant: 50).isActive = true
         button.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -100).isActive = true
         
@@ -66,7 +68,7 @@ class FirstViewController: UIViewController {
     }
 }
 
-private extension MKMapView {
+extension MKMapView {
     func centerToLocation(location: CLLocation, regionRadius: CLLocationDistance = 500) {
         let coordinateRegion = MKCoordinateRegion(
             center: location.coordinate,

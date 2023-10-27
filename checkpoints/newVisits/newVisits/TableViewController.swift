@@ -6,10 +6,13 @@
 //
 
 import UIKit
+import MapKit
 
 class TableViewController: UITableViewController {
 
     let visits = Visits.sampleData
+    
+    let firstViewController = FirstViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +50,6 @@ class TableViewController: UITableViewController {
         timeOfVisitLabel.textColor = .white
         timeOfVisitLabel.font = UIFont.systemFont(ofSize: 14, weight: .bold)
         timeOfVisitLabel.backgroundColor = UIColor(named: "DarkBlue")
-        timeOfVisitLabel.layer.cornerRadius = 10
         
         let timeSpentLabel = UILabel()
         timeSpentLabel.text = "\(visits[indexPath.row].timeSpent)m"
@@ -60,8 +62,8 @@ class TableViewController: UITableViewController {
         return cell
     }
     
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        print(visits[indexPath.row])
-//    }
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 
 }
