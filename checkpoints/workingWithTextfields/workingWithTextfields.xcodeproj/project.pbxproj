@@ -14,6 +14,7 @@
 		1431C9BC2AF2918F00BC8DE2 /* workingWithTextfieldsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431C9BB2AF2918F00BC8DE2 /* workingWithTextfieldsTests.swift */; };
 		1431C9C62AF2918F00BC8DE2 /* workingWithTextfieldsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431C9C52AF2918F00BC8DE2 /* workingWithTextfieldsUITests.swift */; };
 		1431C9C82AF2918F00BC8DE2 /* workingWithTextfieldsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431C9C72AF2918F00BC8DE2 /* workingWithTextfieldsUITestsLaunchTests.swift */; };
+		1431C9D52AF2921F00BC8DE2 /* UserForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431C9D42AF2921F00BC8DE2 /* UserForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1431C9C12AF2918F00BC8DE2 /* workingWithTextfieldsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = workingWithTextfieldsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1431C9C52AF2918F00BC8DE2 /* workingWithTextfieldsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workingWithTextfieldsUITests.swift; sourceTree = "<group>"; };
 		1431C9C72AF2918F00BC8DE2 /* workingWithTextfieldsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workingWithTextfieldsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1431C9D42AF2921F00BC8DE2 /* UserForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				1431C9AA2AF2918E00BC8DE2 /* workingWithTextfieldsApp.swift */,
 				1431C9AC2AF2918E00BC8DE2 /* ContentView.swift */,
+				1431C9D42AF2921F00BC8DE2 /* UserForm.swift */,
 				1431C9AE2AF2918F00BC8DE2 /* Assets.xcassets */,
 				1431C9B02AF2918F00BC8DE2 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1431C9D52AF2921F00BC8DE2 /* UserForm.swift in Sources */,
 				1431C9AD2AF2918E00BC8DE2 /* ContentView.swift in Sources */,
 				1431C9AB2AF2918E00BC8DE2 /* workingWithTextfieldsApp.swift in Sources */,
 			);
