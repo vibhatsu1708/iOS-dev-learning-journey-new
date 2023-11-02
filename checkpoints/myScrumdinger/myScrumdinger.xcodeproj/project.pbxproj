@@ -20,6 +20,7 @@
 		144CAFE72AE89D50008C4B4E /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144CAFE62AE89D50008C4B4E /* TrailingIconLabelStyle.swift */; };
 		144CAFED2AE8C96F008C4B4E /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144CAFEC2AE8C96F008C4B4E /* ScrumsView.swift */; };
 		144CAFEF2AE8CE1D008C4B4E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144CAFEE2AE8CE1D008C4B4E /* DetailView.swift */; };
+		1473A1742AF240C9005BAEA5 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1473A1732AF240C8005BAEA5 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		144CAFE62AE89D50008C4B4E /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		144CAFEC2AE8C96F008C4B4E /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		144CAFEE2AE8CE1D008C4B4E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1473A1732AF240C8005BAEA5 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		144CAFA82AE88965008C4B4E = {
 			isa = PBXGroup;
 			children = (
+				1473A1732AF240C8005BAEA5 /* DetailEditView.swift */,
 				144CAFE42AE8959A008C4B4E /* CardView.swift */,
 				144CAFE62AE89D50008C4B4E /* TrailingIconLabelStyle.swift */,
 				144CAFB32AE88965008C4B4E /* myScrumdinger */,
@@ -293,6 +296,7 @@
 			files = (
 				144CAFE22AE88F94008C4B4E /* DailyScrum.swift in Sources */,
 				144CAFEF2AE8CE1D008C4B4E /* DetailView.swift in Sources */,
+				1473A1742AF240C9005BAEA5 /* DetailEditView.swift in Sources */,
 				144CAFE72AE89D50008C4B4E /* TrailingIconLabelStyle.swift in Sources */,
 				144CAFE02AE88E12008C4B4E /* Theme.swift in Sources */,
 				144CAFED2AE8C96F008C4B4E /* ScrumsView.swift in Sources */,
