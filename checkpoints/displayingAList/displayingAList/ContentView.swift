@@ -7,6 +7,21 @@
 
 import SwiftUI
 
+struct ContentView: View {
+    @ObservedObject var model = Model()
+    
+    var body: some View {
+        VStack {
+            List {
+                ForEach(model.menuItems) { menuItem in
+                    Text(menuItem.name)
+                }
+            }
+        }
+        .padding()
+    }
+}
+
 struct Item: Identifiable {
     var name: String
     var id: UUID = UUID()
@@ -29,17 +44,6 @@ class Model: ObservableObject {
     
 }
 
-struct ContentView: View {
-    @ObservedObject var model = Model()
-    
-    var body: some View {
-        VStack {
-            List {
-                ForEach(model.menuItems) { menuItem in
-                    Text(menuItem.name)
-                }
-            }
-        }
-        .padding()
-    }
+#Preview {
+    ContentView()
 }
