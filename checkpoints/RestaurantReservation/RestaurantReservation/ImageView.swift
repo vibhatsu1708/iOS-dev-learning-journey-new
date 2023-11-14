@@ -9,11 +9,15 @@ import SwiftUI
 
 struct ImageView: View {
     var body: some View {
-        HStack {
-            Image("restaurant")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-        }
+        Image("restaurant")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .clipShape(Circle())
+            .overlay {
+                Circle()
+                    .stroke(Color.black, lineWidth: 5.0)
+            }
+            .padding()
     }
 }
 
