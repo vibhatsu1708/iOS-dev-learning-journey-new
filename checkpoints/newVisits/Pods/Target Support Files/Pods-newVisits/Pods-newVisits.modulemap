@@ -1,6 +1,0 @@
-framework module Pods_newVisits {
-  umbrella header "Pods-newVisits-umbrella.h"
-
-  export *
-  module * { export * }
-}

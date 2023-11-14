@@ -1,6 +1,0 @@
-framework module Pods_experimentingWithSheets {
-  umbrella header "Pods-experimentingWithSheets-umbrella.h"
-
-  export *
-  module * { export * }
-}
