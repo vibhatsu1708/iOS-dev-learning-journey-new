@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142E45C22B2D624500690854 /* AllRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E45C12B2D624500690854 /* AllRemindersView.swift */; };
+		14346C202B2E47080035FC93 /* AllPurchasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14346C1F2B2E47080035FC93 /* AllPurchasesView.swift */; };
+		14346C232B2E6C370035FC93 /* AddPurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14346C222B2E6C370035FC93 /* AddPurchaseView.swift */; };
+		146E2C4F2B27D39E0062D0DA /* NoteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146E2C4D2B27D39E0062D0DA /* NoteModel.xcdatamodeld */; };
+		146E2C542B27D5270062D0DA /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E2C532B27D5270062D0DA /* DataController.swift */; };
+		146E2C572B27D6FF0062D0DA /* TimeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E2C562B27D6FF0062D0DA /* TimeFormatter.swift */; };
+		146E2C5B2B27F1CD0062D0DA /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E2C5A2B27F1CC0062D0DA /* AddNoteView.swift */; };
+		146E2C5D2B27F5680062D0DA /* EditNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E2C5C2B27F5680062D0DA /* EditNoteView.swift */; };
+		1488C7BF2B2C22D6002CC70E /* AllNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1488C7BE2B2C22D6002CC70E /* AllNotesView.swift */; };
 		14A15C722B267E180064E51D /* coreDataAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15C712B267E180064E51D /* coreDataAppApp.swift */; };
 		14A15C742B267E180064E51D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15C732B267E180064E51D /* ContentView.swift */; };
 		14A15C762B267E1A0064E51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A15C752B267E1A0064E51D /* Assets.xcassets */; };
@@ -14,11 +23,8 @@
 		14A15C832B267E1A0064E51D /* coreDataAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15C822B267E1A0064E51D /* coreDataAppTests.swift */; };
 		14A15C8D2B267E1A0064E51D /* coreDataAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15C8C2B267E1A0064E51D /* coreDataAppUITests.swift */; };
 		14A15C8F2B267E1A0064E51D /* coreDataAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15C8E2B267E1A0064E51D /* coreDataAppUITestsLaunchTests.swift */; };
-		14A15C9E2B267E8D0064E51D /* ExpenseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14A15C9C2B267E8D0064E51D /* ExpenseModel.xcdatamodeld */; };
-		14A15CA02B267F760064E51D /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15C9F2B267F760064E51D /* DataController.swift */; };
-		14A15CA42B2682460064E51D /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15CA32B2682460064E51D /* AddItemView.swift */; };
-		14A15CA62B2684450064E51D /* TimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15CA52B2684450064E51D /* TimeFormat.swift */; };
-		14A15CA82B268D210064E51D /* EdititemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A15CA72B268D210064E51D /* EdititemView.swift */; };
+		14E7BB492B2DFFD400FEF2AE /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7BB482B2DFFD400FEF2AE /* AddReminderView.swift */; };
+		14E7BB4B2B2DFFDB00FEF2AE /* EditReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7BB4A2B2DFFDB00FEF2AE /* EditReminderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142E45C12B2D624500690854 /* AllRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRemindersView.swift; sourceTree = "<group>"; };
+		14346C1F2B2E47080035FC93 /* AllPurchasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPurchasesView.swift; sourceTree = "<group>"; };
+		14346C222B2E6C370035FC93 /* AddPurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPurchaseView.swift; sourceTree = "<group>"; };
+		146E2C4E2B27D39E0062D0DA /* NoteModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteModel.xcdatamodel; sourceTree = "<group>"; };
+		146E2C532B27D5270062D0DA /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		146E2C562B27D6FF0062D0DA /* TimeFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatter.swift; sourceTree = "<group>"; };
+		146E2C5A2B27F1CC0062D0DA /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		146E2C5C2B27F5680062D0DA /* EditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteView.swift; sourceTree = "<group>"; };
+		1488C7BE2B2C22D6002CC70E /* AllNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotesView.swift; sourceTree = "<group>"; };
 		14A15C6E2B267E180064E51D /* coreDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A15C712B267E180064E51D /* coreDataAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataAppApp.swift; sourceTree = "<group>"; };
 		14A15C732B267E180064E51D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,11 +64,8 @@
 		14A15C882B267E1A0064E51D /* coreDataAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreDataAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A15C8C2B267E1A0064E51D /* coreDataAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataAppUITests.swift; sourceTree = "<group>"; };
 		14A15C8E2B267E1A0064E51D /* coreDataAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		14A15C9D2B267E8D0064E51D /* ExpenseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseModel.xcdatamodel; sourceTree = "<group>"; };
-		14A15C9F2B267F760064E51D /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		14A15CA32B2682460064E51D /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
-		14A15CA52B2684450064E51D /* TimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormat.swift; sourceTree = "<group>"; };
-		14A15CA72B268D210064E51D /* EdititemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdititemView.swift; sourceTree = "<group>"; };
+		14E7BB482B2DFFD400FEF2AE /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		14E7BB4A2B2DFFDB00FEF2AE /* EditReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditReminderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		142E45C02B2D5F7300690854 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14A15C732B267E180064E51D /* ContentView.swift */,
+				14E7BB472B2DFDF000FEF2AE /* Reminders Views */,
+				14E7BB462B2DFDE900FEF2AE /* Notes Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14346C212B2E69AD0035FC93 /* Purchases Views */ = {
+			isa = PBXGroup;
+			children = (
+				14346C1F2B2E47080035FC93 /* AllPurchasesView.swift */,
+				14346C222B2E6C370035FC93 /* AddPurchaseView.swift */,
+			);
+			path = "Purchases Views";
+			sourceTree = "<group>";
+		};
+		146E2C522B27D4260062D0DA /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				146E2C532B27D5270062D0DA /* DataController.swift */,
+				146E2C4D2B27D39E0062D0DA /* NoteModel.xcdatamodeld */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		146E2C552B27D6F10062D0DA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				146E2C562B27D6FF0062D0DA /* TimeFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		14A15C652B267E180064E51D = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +153,10 @@
 			isa = PBXGroup;
 			children = (
 				14A15C712B267E180064E51D /* coreDataAppApp.swift */,
-				14A15CA22B2682230064E51D /* Helpers */,
-				14A15CA12B2682150064E51D /* Views */,
-				14A15C9B2B267E470064E51D /* Data Model */,
+				142E45C02B2D5F7300690854 /* Views */,
+				14346C212B2E69AD0035FC93 /* Purchases Views */,
+				146E2C552B27D6F10062D0DA /* Helpers */,
+				146E2C522B27D4260062D0DA /* DataModels */,
 				14A15C752B267E1A0064E51D /* Assets.xcassets */,
 				14A15C772B267E1A0064E51D /* Preview Content */,
 			);
@@ -139,31 +188,24 @@
 			path = coreDataAppUITests;
 			sourceTree = "<group>";
 		};
-		14A15C9B2B267E470064E51D /* Data Model */ = {
+		14E7BB462B2DFDE900FEF2AE /* Notes Views */ = {
 			isa = PBXGroup;
 			children = (
-				14A15C9C2B267E8D0064E51D /* ExpenseModel.xcdatamodeld */,
-				14A15C9F2B267F760064E51D /* DataController.swift */,
+				1488C7BE2B2C22D6002CC70E /* AllNotesView.swift */,
+				146E2C5A2B27F1CC0062D0DA /* AddNoteView.swift */,
+				146E2C5C2B27F5680062D0DA /* EditNoteView.swift */,
 			);
-			path = "Data Model";
+			path = "Notes Views";
 			sourceTree = "<group>";
 		};
-		14A15CA12B2682150064E51D /* Views */ = {
+		14E7BB472B2DFDF000FEF2AE /* Reminders Views */ = {
 			isa = PBXGroup;
 			children = (
-				14A15C732B267E180064E51D /* ContentView.swift */,
-				14A15CA32B2682460064E51D /* AddItemView.swift */,
-				14A15CA72B268D210064E51D /* EdititemView.swift */,
+				142E45C12B2D624500690854 /* AllRemindersView.swift */,
+				14E7BB482B2DFFD400FEF2AE /* AddReminderView.swift */,
+				14E7BB4A2B2DFFDB00FEF2AE /* EditReminderView.swift */,
 			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		14A15CA22B2682230064E51D /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				14A15CA52B2684450064E51D /* TimeFormat.swift */,
-			);
-			path = Helpers;
+			path = "Reminders Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,13 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E7BB4B2B2DFFDB00FEF2AE /* EditReminderView.swift in Sources */,
+				146E2C5B2B27F1CD0062D0DA /* AddNoteView.swift in Sources */,
 				14A15C742B267E180064E51D /* ContentView.swift in Sources */,
-				14A15CA02B267F760064E51D /* DataController.swift in Sources */,
-				14A15C9E2B267E8D0064E51D /* ExpenseModel.xcdatamodeld in Sources */,
-				14A15CA62B2684450064E51D /* TimeFormat.swift in Sources */,
+				1488C7BF2B2C22D6002CC70E /* AllNotesView.swift in Sources */,
+				146E2C542B27D5270062D0DA /* DataController.swift in Sources */,
 				14A15C722B267E180064E51D /* coreDataAppApp.swift in Sources */,
-				14A15CA42B2682460064E51D /* AddItemView.swift in Sources */,
-				14A15CA82B268D210064E51D /* EdititemView.swift in Sources */,
+				146E2C572B27D6FF0062D0DA /* TimeFormatter.swift in Sources */,
+				14346C202B2E47080035FC93 /* AllPurchasesView.swift in Sources */,
+				146E2C4F2B27D39E0062D0DA /* NoteModel.xcdatamodeld in Sources */,
+				142E45C22B2D624500690854 /* AllRemindersView.swift in Sources */,
+				14E7BB492B2DFFD400FEF2AE /* AddReminderView.swift in Sources */,
+				146E2C5D2B27F5680062D0DA /* EditNoteView.swift in Sources */,
+				14346C232B2E6C370035FC93 /* AddPurchaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +517,7 @@
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coreDataApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +547,7 @@
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = coreDataApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -634,13 +684,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		14A15C9C2B267E8D0064E51D /* ExpenseModel.xcdatamodeld */ = {
+		146E2C4D2B27D39E0062D0DA /* NoteModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				14A15C9D2B267E8D0064E51D /* ExpenseModel.xcdatamodel */,
+				146E2C4E2B27D39E0062D0DA /* NoteModel.xcdatamodel */,
 			);
-			currentVersion = 14A15C9D2B267E8D0064E51D /* ExpenseModel.xcdatamodel */;
-			path = ExpenseModel.xcdatamodeld;
+			currentVersion = 146E2C4E2B27D39E0062D0DA /* NoteModel.xcdatamodel */;
+			path = NoteModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

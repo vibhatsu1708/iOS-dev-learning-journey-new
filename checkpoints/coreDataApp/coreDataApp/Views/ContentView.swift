@@ -9,75 +9,48 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) var managedObjContext
-    @FetchRequest(sortDescriptors: [SortDescriptor(\.date, order:.reverse)]) var item: FetchedResults<Item>
+    @Environment(\.managedObjectContext) var managedObjectContext
     
-    @State private var showingAddView: Bool = false
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var note: FetchedResults<Note>
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var reminder: FetchedResults<Reminder>
+    @FetchRequest(sortDescriptors: [SortDescriptor(\.date, order: .reverse)]) var purchase: FetchedResults<Purchase>
     
     var body: some View {
-        NavigationStack {
-            VStack(alignment: .leading) {
-                Text("\(Int(totalExpenseToday()))$ today.")
-                    .foregroundStyle(Color.gray)
-                    .padding(.horizontal)
-                List {
-                    ForEach(item) { item in
-                        NavigationLink(destination: EdititemView(item: item)) {
-                            HStack {
-                                VStack(alignment: .leading, spacing: 5) {
-                                    Text(item.name!)
-                                        .bold()
-                                    Text("\(item.cost)")
-                                }
-                                Spacer()
-                                Text(calculateTime(date: item.date!))
-                                    .foregroundStyle(Color.gray)
-                                    .italic()
-                            }
-                        }
-                    }
-                    .onDelete(perform: deleteItem)
+        TabView {
+            AllNotesView()
+                .tabItem {
+                    Label("My Notes", systemImage: "note.text")
                 }
-                .listStyle(.plain)
-            }
-            .navigationTitle("iBudget")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        showingAddView.toggle()
-                    } label: {
-                        Label("Add Item", systemImage: "plus.circle.fill")
-                    }
-                }
-                ToolbarItem(placement: .navigationBarLeading) {
-                    EditButton()
-                }
-            }
-            .sheet(isPresented: $showingAddView) {
-                AddItemView()
-            }
-        }
-        .navigationViewStyle(.stack)
-//        .padding()
-    }
-    
-    private func deleteItem(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { item[$0] }.forEach(managedObjContext.delete)
             
-            DataController().save(context: managedObjContext)
+            AllRemindersView()
+                .tabItem {
+                    Label("My Reminders", systemImage: "checklist")
+                }
+            
+            Text("Purchases View")
+//            AllPurchasesView()
+                .tabItem {
+                    Label("My Budget", systemImage: "chart.bar")
+                }
         }
     }
-    
-    private func totalExpenseToday() -> Double {
-        var expenseToday: Double = 0
-        
-        for item in item {
-            if Calendar.current.isDateInToday(item.date!) {
-                expenseToday += item.cost
-            }
-        }
-        return expenseToday
+}
+
+
+extension UIColor {
+    convenience init(hex: String, alpha: CGFloat = 1.0) {
+        var hexSanitized = hex.trimmingCharacters(in: .whitespacesAndNewlines)
+        hexSanitized = hexSanitized.replacingOccurrences(of: "#", with: "")
+
+        var rgb: UInt64 = 0
+
+        Scanner(string: hexSanitized).scanHexInt64(&rgb)
+
+        let red = CGFloat((rgb & 0xFF0000) >> 16) / 255.0
+        let green = CGFloat((rgb & 0x00FF00) >> 8) / 255.0
+        let blue = CGFloat(rgb & 0x0000FF) / 255.0
+
+        self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
 }
 

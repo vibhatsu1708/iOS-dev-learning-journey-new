@@ -1,19 +1,21 @@
 //
-//  TimeFormat.swift
+//  TimeFormatter.swift
 //  coreDataApp
 //
-//  Created by Vedant Mistry on 11/12/23.
+//  Created by Vedant Mistry on 12/12/23.
 //
 
 import Foundation
 
 func calculateTime(date: Date) -> String {
-    let minutes = Int(-date.timeIntervalSinceNow)/60
-    let hours = minutes/60
-    let days = hours/24
+    let minutes = Int(-date.timeIntervalSinceNow) / 60
+    let hours = minutes / 60
+    let days = hours / 24
     
-    if minutes <= 1 {
-        return "\(minutes) minute ago"
+    if minutes < 1 {
+        return "Less than a minute ago"
+    } else if minutes == 1 {
+        return "1 minute ago"
     } else if minutes < 120 {
         return "\(minutes) minutes ago"
     } else if minutes >= 120 && hours < 48 {
