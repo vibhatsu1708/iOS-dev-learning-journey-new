@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1493CFF12B3E18D00074F949 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493CFF02B3E18D00074F949 /* DetectedObject.swift */; };
 		14BC139B2B397F71001DB173 /* CoreMLAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC139A2B397F71001DB173 /* CoreMLAppApp.swift */; };
 		14BC139D2B397F71001DB173 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC139C2B397F71001DB173 /* ContentView.swift */; };
 		14BC139F2B397F73001DB173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BC139E2B397F73001DB173 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1493CFF02B3E18D00074F949 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
 		14BC13972B397F71001DB173 /* CoreMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BC139A2B397F71001DB173 /* CoreMLAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLAppApp.swift; sourceTree = "<group>"; };
 		14BC139C2B397F71001DB173 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				14BC139A2B397F71001DB173 /* CoreMLAppApp.swift */,
 				14BC139C2B397F71001DB173 /* ContentView.swift */,
+				1493CFF02B3E18D00074F949 /* DetectedObject.swift */,
 				14BC13CC2B398311001DB173 /* Camera.swift */,
 				14BC13CA2B3982B5001DB173 /* Gallery.swift */,
 				14BC139E2B397F73001DB173 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				14BC13CD2B398311001DB173 /* Camera.swift in Sources */,
 				14BC139D2B397F71001DB173 /* ContentView.swift in Sources */,
 				14BC13C92B39806D001DB173 /* Inceptionv3.mlmodel in Sources */,
+				1493CFF12B3E18D00074F949 /* DetectedObject.swift in Sources */,
 				14BC139B2B397F71001DB173 /* CoreMLAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

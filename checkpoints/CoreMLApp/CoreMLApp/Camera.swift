@@ -15,11 +15,7 @@ struct Camera: View {
     @State private var selectedImage: UIImage?
     @State var image: UIImage?
     
-    @ObservedObject var coordinator: Coordinator
-    
-    init(coordinator: Coordinator) {
-        self.coordinator = coordinator
-    }
+    @EnvironmentObject var detectedObject: DetectedObject
     
     var body: some View {
         NavigationStack {
@@ -30,7 +26,7 @@ struct Camera: View {
             } else {
                 Text("No image")
             }
-            Text("\(coordinator.objectDetectedTitle)")
+            Text("\(detectedObject.object)")
             .navigationTitle("CameraML")
             .toolbar {
                 Button {
@@ -51,6 +47,8 @@ struct accessCameraView: UIViewControllerRepresentable {
     @Binding var selectedImage: UIImage?
     @Environment(\.presentationMode) var isPresented
     
+    @EnvironmentObject var detectedObject: DetectedObject
+    
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let imagePicker = UIImagePickerController()
         imagePicker.sourceType = .camera
@@ -64,16 +62,18 @@ struct accessCameraView: UIViewControllerRepresentable {
     }
 
     func makeCoordinator() -> Coordinator {
-        return Coordinator(picker: self)
+        return Coordinator(picker: self, detectedObject: detectedObject)
     }
 }
 
 class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate, ObservableObject {
     var picker: accessCameraView
-    @Published var objectDetectedTitle: String = ""
     
-    init(picker: accessCameraView) {
+    var detectedObject: DetectedObject
+    
+    init(picker: accessCameraView, detectedObject: DetectedObject) {
         self.picker = picker
+        self.detectedObject = detectedObject
         super.init()
     }
     
@@ -98,8 +98,9 @@ class Coordinator: NSObject, UINavigationControllerDelegate, UIImagePickerContro
                 fatalError("Model failed to process image.")
             }
             if let firstResult = results.first {
-                self.objectDetectedTitle = firstResult.identifier
-                print(self.objectDetectedTitle)
+                self.detectedObject.object = firstResult.identifier
+                
+                print(self.detectedObject.object)
             }
         }
         

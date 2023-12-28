@@ -12,6 +12,7 @@ struct CoreMLAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(DetectedObject())
         }
     }
 }

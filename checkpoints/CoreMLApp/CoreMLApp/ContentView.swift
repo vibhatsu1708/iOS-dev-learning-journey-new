@@ -11,12 +11,7 @@ import Vision
 import PhotosUI
 
 struct ContentView: View {
-    @ObservedObject var coordinator: Coordinator
-    
-    init() {
-        self.coordinator = Coordinator(picker: accessCameraView(selectedImage: $coordinator.selectedImage))
-    }
-
+    @EnvironmentObject var detectedObject: DetectedObject
     
     var body: some View {
         TabView {
@@ -24,7 +19,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Gallery", systemImage: "photo.stack")
                 }
-            Camera(coordinator: coordinator)
+            Camera()
                 .tabItem {
                     Label("Camera", systemImage: "camera")
                 }
