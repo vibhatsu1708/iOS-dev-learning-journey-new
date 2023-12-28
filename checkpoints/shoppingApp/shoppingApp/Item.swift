@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct Item: Codable, Identifiable, Equatable {
+    var id: Int
+    var name: String
+    var brand_name: String
+    var sku: String
+    var price: String
+    
+}

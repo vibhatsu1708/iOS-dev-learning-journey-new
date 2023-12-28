@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct ItemResponse: Codable {
+    let data: [Item]
+}

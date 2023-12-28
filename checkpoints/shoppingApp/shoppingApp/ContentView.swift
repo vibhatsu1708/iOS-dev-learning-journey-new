@@ -8,50 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var cartModel = CartModel()
-    
-    @State private var data: [Product] = []
-    
-    @State private var id: Int = 0
-    @State private var title: String = ""
-    @State private var price: Double = 0.0
-    @State private var description: String = ""
-    @State private var image: String = ""
-    
     var body: some View {
-        TabView {
-            AllProducts_View(data: $data, cartModel: cartModel, id: $id, title: $title, price: $price, description: $description, image: $image)
-                .background(Color(hex: "FDFFF7"))
-                .onAppear {
-                    fetchProductsData()
-                }
-                .tabItem {
-                    Label("All Products", systemImage: "magnifyingglass.circle.fill")
-                }
-            
-            CartView(cartItems: $cartModel.cartItems)
-                .background(Color(hex: "FDFFF7"))
-                .tabItem {
-                    Label("Your Cart", systemImage: "cart.circle.fill")
-                }
-        }
-    }
-    
-    private func fetchProductsData() {
-        guard let url = URL(string: "https://fakestoreapi.com/products") else { return }
-            
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
-            guard let data = data else { return }
-            do {
-                let decodedData = try JSONDecoder().decode([Product].self, from: data)
-                    
-                DispatchQueue.main.async {
-                    self.data = decodedData
-                }
-            } catch {
-                print(error.localizedDescription)
-            }
-        }.resume()
+        Text("Hello world!")
     }
 }
 
