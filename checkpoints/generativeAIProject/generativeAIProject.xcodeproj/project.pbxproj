@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148C498C2B55938F00C8D9E5 /* generativeAIProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C498B2B55938F00C8D9E5 /* generativeAIProjectApp.swift */; };
+		148C498E2B55938F00C8D9E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C498D2B55938F00C8D9E5 /* ContentView.swift */; };
+		148C49902B55939100C8D9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148C498F2B55939100C8D9E5 /* Assets.xcassets */; };
+		148C49932B55939100C8D9E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148C49922B55939100C8D9E5 /* Preview Assets.xcassets */; };
+		148C499D2B55939100C8D9E5 /* generativeAIProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C499C2B55939100C8D9E5 /* generativeAIProjectTests.swift */; };
+		148C49A72B55939100C8D9E5 /* generativeAIProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C49A62B55939100C8D9E5 /* generativeAIProjectUITests.swift */; };
+		148C49A92B55939100C8D9E5 /* generativeAIProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C49A82B55939100C8D9E5 /* generativeAIProjectUITestsLaunchTests.swift */; };
+		148C49B62B5593E300C8D9E5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C49B52B5593E300C8D9E5 /* MainView.swift */; };
+		148C49B92B5594DC00C8D9E5 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 148C49B82B5594DC00C8D9E5 /* GoogleGenerativeAI */; };
+		148C49BB2B55958B00C8D9E5 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 148C49BA2B55958A00C8D9E5 /* GenerativeAI-Info.plist */; };
+		148C49BD2B5595F900C8D9E5 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148C49BC2B5595F900C8D9E5 /* APIKey.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		148C49992B55939100C8D9E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148C49802B55938F00C8D9E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148C49872B55938F00C8D9E5;
+			remoteInfo = generativeAIProject;
+		};
+		148C49A32B55939100C8D9E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 148C49802B55938F00C8D9E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 148C49872B55938F00C8D9E5;
+			remoteInfo = generativeAIProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		148C49882B55938F00C8D9E5 /* generativeAIProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = generativeAIProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		148C498B2B55938F00C8D9E5 /* generativeAIProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generativeAIProjectApp.swift; sourceTree = "<group>"; };
+		148C498D2B55938F00C8D9E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		148C498F2B55939100C8D9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		148C49922B55939100C8D9E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		148C49982B55939100C8D9E5 /* generativeAIProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generativeAIProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148C499C2B55939100C8D9E5 /* generativeAIProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generativeAIProjectTests.swift; sourceTree = "<group>"; };
+		148C49A22B55939100C8D9E5 /* generativeAIProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = generativeAIProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		148C49A62B55939100C8D9E5 /* generativeAIProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generativeAIProjectUITests.swift; sourceTree = "<group>"; };
+		148C49A82B55939100C8D9E5 /* generativeAIProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generativeAIProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		148C49B52B5593E300C8D9E5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		148C49BA2B55958A00C8D9E5 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		148C49BC2B5595F900C8D9E5 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148C49852B55938F00C8D9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148C49B92B5594DC00C8D9E5 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148C49952B55939100C8D9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148C499F2B55939100C8D9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148C497F2B55938F00C8D9E5 = {
+			isa = PBXGroup;
+			children = (
+				148C498A2B55938F00C8D9E5 /* generativeAIProject */,
+				148C499B2B55939100C8D9E5 /* generativeAIProjectTests */,
+				148C49A52B55939100C8D9E5 /* generativeAIProjectUITests */,
+				148C49892B55938F00C8D9E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148C49892B55938F00C8D9E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148C49882B55938F00C8D9E5 /* generativeAIProject.app */,
+				148C49982B55939100C8D9E5 /* generativeAIProjectTests.xctest */,
+				148C49A22B55939100C8D9E5 /* generativeAIProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148C498A2B55938F00C8D9E5 /* generativeAIProject */ = {
+			isa = PBXGroup;
+			children = (
+				148C498B2B55938F00C8D9E5 /* generativeAIProjectApp.swift */,
+				148C498D2B55938F00C8D9E5 /* ContentView.swift */,
+				148C49B52B5593E300C8D9E5 /* MainView.swift */,
+				148C49BA2B55958A00C8D9E5 /* GenerativeAI-Info.plist */,
+				148C49BC2B5595F900C8D9E5 /* APIKey.swift */,
+				148C498F2B55939100C8D9E5 /* Assets.xcassets */,
+				148C49912B55939100C8D9E5 /* Preview Content */,
+			);
+			path = generativeAIProject;
+			sourceTree = "<group>";
+		};
+		148C49912B55939100C8D9E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				148C49922B55939100C8D9E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		148C499B2B55939100C8D9E5 /* generativeAIProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				148C499C2B55939100C8D9E5 /* generativeAIProjectTests.swift */,
+			);
+			path = generativeAIProjectTests;
+			sourceTree = "<group>";
+		};
+		148C49A52B55939100C8D9E5 /* generativeAIProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				148C49A62B55939100C8D9E5 /* generativeAIProjectUITests.swift */,
+				148C49A82B55939100C8D9E5 /* generativeAIProjectUITestsLaunchTests.swift */,
+			);
+			path = generativeAIProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148C49872B55938F00C8D9E5 /* generativeAIProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148C49AC2B55939100C8D9E5 /* Build configuration list for PBXNativeTarget "generativeAIProject" */;
+			buildPhases = (
+				148C49842B55938F00C8D9E5 /* Sources */,
+				148C49852B55938F00C8D9E5 /* Frameworks */,
+				148C49862B55938F00C8D9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = generativeAIProject;
+			packageProductDependencies = (
+				148C49B82B5594DC00C8D9E5 /* GoogleGenerativeAI */,
+			);
+			productName = generativeAIProject;
+			productReference = 148C49882B55938F00C8D9E5 /* generativeAIProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		148C49972B55939100C8D9E5 /* generativeAIProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148C49AF2B55939100C8D9E5 /* Build configuration list for PBXNativeTarget "generativeAIProjectTests" */;
+			buildPhases = (
+				148C49942B55939100C8D9E5 /* Sources */,
+				148C49952B55939100C8D9E5 /* Frameworks */,
+				148C49962B55939100C8D9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148C499A2B55939100C8D9E5 /* PBXTargetDependency */,
+			);
+			name = generativeAIProjectTests;
+			productName = generativeAIProjectTests;
+			productReference = 148C49982B55939100C8D9E5 /* generativeAIProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		148C49A12B55939100C8D9E5 /* generativeAIProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148C49B22B55939100C8D9E5 /* Build configuration list for PBXNativeTarget "generativeAIProjectUITests" */;
+			buildPhases = (
+				148C499E2B55939100C8D9E5 /* Sources */,
+				148C499F2B55939100C8D9E5 /* Frameworks */,
+				148C49A02B55939100C8D9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				148C49A42B55939100C8D9E5 /* PBXTargetDependency */,
+			);
+			name = generativeAIProjectUITests;
+			productName = generativeAIProjectUITests;
+			productReference = 148C49A22B55939100C8D9E5 /* generativeAIProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148C49802B55938F00C8D9E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					148C49872B55938F00C8D9E5 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					148C49972B55939100C8D9E5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 148C49872B55938F00C8D9E5;
+					};
+					148C49A12B55939100C8D9E5 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 148C49872B55938F00C8D9E5;
+					};
+				};
+			};
+			buildConfigurationList = 148C49832B55938F00C8D9E5 /* Build configuration list for PBXProject "generativeAIProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 148C497F2B55938F00C8D9E5;
+			packageReferences = (
+				148C49B72B5594DC00C8D9E5 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 148C49892B55938F00C8D9E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148C49872B55938F00C8D9E5 /* generativeAIProject */,
+				148C49972B55939100C8D9E5 /* generativeAIProjectTests */,
+				148C49A12B55939100C8D9E5 /* generativeAIProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		148C49862B55938F00C8D9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148C49932B55939100C8D9E5 /* Preview Assets.xcassets in Resources */,
+				148C49902B55939100C8D9E5 /* Assets.xcassets in Resources */,
+				148C49BB2B55958B00C8D9E5 /* GenerativeAI-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148C49962B55939100C8D9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148C49A02B55939100C8D9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148C49842B55938F00C8D9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148C498E2B55938F00C8D9E5 /* ContentView.swift in Sources */,
+				148C49B62B5593E300C8D9E5 /* MainView.swift in Sources */,
+				148C49BD2B5595F900C8D9E5 /* APIKey.swift in Sources */,
+				148C498C2B55938F00C8D9E5 /* generativeAIProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148C49942B55939100C8D9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148C499D2B55939100C8D9E5 /* generativeAIProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		148C499E2B55939100C8D9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148C49A92B55939100C8D9E5 /* generativeAIProjectUITestsLaunchTests.swift in Sources */,
+				148C49A72B55939100C8D9E5 /* generativeAIProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		148C499A2B55939100C8D9E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148C49872B55938F00C8D9E5 /* generativeAIProject */;
+			targetProxy = 148C49992B55939100C8D9E5 /* PBXContainerItemProxy */;
+		};
+		148C49A42B55939100C8D9E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 148C49872B55938F00C8D9E5 /* generativeAIProject */;
+			targetProxy = 148C49A32B55939100C8D9E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		148C49AA2B55939100C8D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		148C49AB2B55939100C8D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		148C49AD2B55939100C8D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"generativeAIProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.generativeAIProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		148C49AE2B55939100C8D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"generativeAIProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.generativeAIProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		148C49B02B55939100C8D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.generativeAIProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/generativeAIProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/generativeAIProject";
+			};
+			name = Debug;
+		};
+		148C49B12B55939100C8D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.generativeAIProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/generativeAIProject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/generativeAIProject";
+			};
+			name = Release;
+		};
+		148C49B32B55939100C8D9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.generativeAIProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = generativeAIProject;
+			};
+			name = Debug;
+		};
+		148C49B42B55939100C8D9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.generativeAIProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = generativeAIProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148C49832B55938F00C8D9E5 /* Build configuration list for PBXProject "generativeAIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148C49AA2B55939100C8D9E5 /* Debug */,
+				148C49AB2B55939100C8D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148C49AC2B55939100C8D9E5 /* Build configuration list for PBXNativeTarget "generativeAIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148C49AD2B55939100C8D9E5 /* Debug */,
+				148C49AE2B55939100C8D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148C49AF2B55939100C8D9E5 /* Build configuration list for PBXNativeTarget "generativeAIProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148C49B02B55939100C8D9E5 /* Debug */,
+				148C49B12B55939100C8D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148C49B22B55939100C8D9E5 /* Build configuration list for PBXNativeTarget "generativeAIProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148C49B32B55939100C8D9E5 /* Debug */,
+				148C49B42B55939100C8D9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		148C49B72B5594DC00C8D9E5 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		148C49B82B5594DC00C8D9E5 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 148C49B72B5594DC00C8D9E5 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 148C49802B55938F00C8D9E5 /* Project object */;
+}
