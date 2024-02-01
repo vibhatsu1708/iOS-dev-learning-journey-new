@@ -6,16 +6,20 @@
 //
 
 import SwiftUI
+import CoreML
+import PhotosUI
+import Vision
 
 struct ContentView: View {
+    @EnvironmentObject var detectedAnimal: DetectedAnimal
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            Camera()
+                .tabItem {
+                    Label("Camera", systemImage: "camera.fill")
+                }
         }
-        .padding()
     }
 }
 

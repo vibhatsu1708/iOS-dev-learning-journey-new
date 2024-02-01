@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1433AA512B6BEA7B00399862 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433AA502B6BEA7B00399862 /* Camera.swift */; };
+		1433AA532B6BF1D200399862 /* DetectedAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1433AA522B6BF1D200399862 /* DetectedAnimal.swift */; };
 		1446018D2B6B9E4800343720 /* BearLionOrTigerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446018C2B6B9E4800343720 /* BearLionOrTigerApp.swift */; };
 		1446018F2B6B9E4800343720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446018E2B6B9E4800343720 /* ContentView.swift */; };
 		144601912B6B9E4A00343720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144601902B6B9E4A00343720 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		1446019E2B6B9E4B00343720 /* BearLionOrTigerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446019D2B6B9E4B00343720 /* BearLionOrTigerTests.swift */; };
 		144601A82B6B9E4B00343720 /* BearLionOrTigerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144601A72B6B9E4B00343720 /* BearLionOrTigerUITests.swift */; };
 		144601AA2B6B9E4B00343720 /* BearLionOrTigerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144601A92B6B9E4B00343720 /* BearLionOrTigerUITestsLaunchTests.swift */; };
+		144601B72B6B9F2600343720 /* BearLionTigerClassifierCreateML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 144601B62B6B9F2600343720 /* BearLionTigerClassifierCreateML.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1433AA502B6BEA7B00399862 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		1433AA522B6BF1D200399862 /* DetectedAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedAnimal.swift; sourceTree = "<group>"; };
 		144601892B6B9E4800343720 /* BearLionOrTiger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BearLionOrTiger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1446018C2B6B9E4800343720 /* BearLionOrTigerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearLionOrTigerApp.swift; sourceTree = "<group>"; };
 		1446018E2B6B9E4800343720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		144601A32B6B9E4B00343720 /* BearLionOrTigerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BearLionOrTigerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		144601A72B6B9E4B00343720 /* BearLionOrTigerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearLionOrTigerUITests.swift; sourceTree = "<group>"; };
 		144601A92B6B9E4B00343720 /* BearLionOrTigerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearLionOrTigerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		144601B62B6B9F2600343720 /* BearLionTigerClassifierCreateML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BearLionTigerClassifierCreateML.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			children = (
 				1446018C2B6B9E4800343720 /* BearLionOrTigerApp.swift */,
 				1446018E2B6B9E4800343720 /* ContentView.swift */,
+				1433AA502B6BEA7B00399862 /* Camera.swift */,
+				1433AA522B6BF1D200399862 /* DetectedAnimal.swift */,
 				144601902B6B9E4A00343720 /* Assets.xcassets */,
+				144601B62B6B9F2600343720 /* BearLionTigerClassifierCreateML.mlmodel */,
 				144601922B6B9E4A00343720 /* Preview Content */,
 			);
 			path = BearLionOrTiger;
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144601B72B6B9F2600343720 /* BearLionTigerClassifierCreateML.mlmodel in Sources */,
+				1433AA512B6BEA7B00399862 /* Camera.swift in Sources */,
 				1446018F2B6B9E4800343720 /* ContentView.swift in Sources */,
+				1433AA532B6BF1D200399862 /* DetectedAnimal.swift in Sources */,
 				1446018D2B6B9E4800343720 /* BearLionOrTigerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +437,7 @@
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needs usage permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +467,7 @@
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needs usage permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -12,6 +12,7 @@ struct BearLionOrTigerApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(DetectedAnimal())
         }
     }
 }

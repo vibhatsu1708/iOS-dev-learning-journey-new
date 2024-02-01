@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+class DetectedAnimal: ObservableObject {
+    @Published var detectedAnimal: String = ""
+}
