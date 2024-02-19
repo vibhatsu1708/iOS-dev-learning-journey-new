@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14352F262B6D8F000046E736 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14352F252B6D8F000046E736 /* Coordinator.swift */; };
+		14352F2A2B6D90B90046E736 /* BearLionTigerClassifierCreateML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 14352F292B6D90B90046E736 /* BearLionTigerClassifierCreateML.mlmodel */; };
 		1493CFF12B3E18D00074F949 /* DetectedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493CFF02B3E18D00074F949 /* DetectedObject.swift */; };
+		149848E62B6D1E77006867ED /* HandNumbersClassifer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 149848E52B6D1E76006867ED /* HandNumbersClassifer.mlmodel */; };
+		149848EA2B6D1EF8006867ED /* CameraVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149848E92B6D1EF8006867ED /* CameraVideo.swift */; };
 		14BC139B2B397F71001DB173 /* CoreMLAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC139A2B397F71001DB173 /* CoreMLAppApp.swift */; };
 		14BC139D2B397F71001DB173 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC139C2B397F71001DB173 /* ContentView.swift */; };
 		14BC139F2B397F73001DB173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BC139E2B397F73001DB173 /* Assets.xcassets */; };
@@ -15,7 +19,6 @@
 		14BC13AC2B397F73001DB173 /* CoreMLAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC13AB2B397F73001DB173 /* CoreMLAppTests.swift */; };
 		14BC13B62B397F73001DB173 /* CoreMLAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC13B52B397F73001DB173 /* CoreMLAppUITests.swift */; };
 		14BC13B82B397F73001DB173 /* CoreMLAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC13B72B397F73001DB173 /* CoreMLAppUITestsLaunchTests.swift */; };
-		14BC13C92B39806D001DB173 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 14BC13C82B39806D001DB173 /* Inceptionv3.mlmodel */; };
 		14BC13CB2B3982B5001DB173 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC13CA2B3982B5001DB173 /* Gallery.swift */; };
 		14BC13CD2B398311001DB173 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC13CC2B398311001DB173 /* Camera.swift */; };
 /* End PBXBuildFile section */
@@ -38,7 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14352F252B6D8F000046E736 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		14352F292B6D90B90046E736 /* BearLionTigerClassifierCreateML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = BearLionTigerClassifierCreateML.mlmodel; path = "../../../Custom-CreateML-Models/BearLionTigerClassifierCreateML.mlmodel"; sourceTree = "<group>"; };
 		1493CFF02B3E18D00074F949 /* DetectedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectedObject.swift; sourceTree = "<group>"; };
+		149848E52B6D1E76006867ED /* HandNumbersClassifer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandNumbersClassifer.mlmodel; sourceTree = "<group>"; };
+		149848E92B6D1EF8006867ED /* CameraVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVideo.swift; sourceTree = "<group>"; };
 		14BC13972B397F71001DB173 /* CoreMLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BC139A2B397F71001DB173 /* CoreMLAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLAppApp.swift; sourceTree = "<group>"; };
 		14BC139C2B397F71001DB173 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +56,6 @@
 		14BC13B12B397F73001DB173 /* CoreMLAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BC13B52B397F73001DB173 /* CoreMLAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLAppUITests.swift; sourceTree = "<group>"; };
 		14BC13B72B397F73001DB173 /* CoreMLAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		14BC13C82B39806D001DB173 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		14BC13CA2B3982B5001DB173 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		14BC13CC2B398311001DB173 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,9 +112,12 @@
 				14BC139C2B397F71001DB173 /* ContentView.swift */,
 				1493CFF02B3E18D00074F949 /* DetectedObject.swift */,
 				14BC13CC2B398311001DB173 /* Camera.swift */,
+				14352F252B6D8F000046E736 /* Coordinator.swift */,
+				149848E92B6D1EF8006867ED /* CameraVideo.swift */,
 				14BC13CA2B3982B5001DB173 /* Gallery.swift */,
 				14BC139E2B397F73001DB173 /* Assets.xcassets */,
-				14BC13C82B39806D001DB173 /* Inceptionv3.mlmodel */,
+				14352F292B6D90B90046E736 /* BearLionTigerClassifierCreateML.mlmodel */,
+				149848E52B6D1E76006867ED /* HandNumbersClassifer.mlmodel */,
 				14BC13A02B397F73001DB173 /* Preview Content */,
 			);
 			path = CoreMLApp;
@@ -269,10 +278,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14352F2A2B6D90B90046E736 /* BearLionTigerClassifierCreateML.mlmodel in Sources */,
+				14352F262B6D8F000046E736 /* Coordinator.swift in Sources */,
 				14BC13CB2B3982B5001DB173 /* Gallery.swift in Sources */,
+				149848E62B6D1E77006867ED /* HandNumbersClassifer.mlmodel in Sources */,
 				14BC13CD2B398311001DB173 /* Camera.swift in Sources */,
 				14BC139D2B397F71001DB173 /* ContentView.swift in Sources */,
-				14BC13C92B39806D001DB173 /* Inceptionv3.mlmodel in Sources */,
+				149848EA2B6D1EF8006867ED /* CameraVideo.swift in Sources */,
 				1493CFF12B3E18D00074F949 /* DetectedObject.swift in Sources */,
 				14BC139B2B397F71001DB173 /* CoreMLAppApp.swift in Sources */,
 			);
