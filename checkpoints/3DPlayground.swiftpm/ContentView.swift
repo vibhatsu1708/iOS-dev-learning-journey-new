@@ -10,22 +10,20 @@ struct ContentView: View {
 
 struct ARContainer: UIViewRepresentable {
     func makeUIView(context: Context) -> ARView {
-        let ARView = ARView(frame: .zero, cameraMode: .ar, automaticallyConfigureSession: true)
-        let mesh = MeshResource.generateBox(size: 0.2)
-        let material = SimpleMaterial(color: .blue, roughness: 0.5, isMetallic: true)
-        let modelEntity = ModelEntity(mesh: mesh, materials: [material])
-        let anchorEntity = AnchorEntity(plane: .horizontal)
-        anchorEntity.addChild(modelEntity)
-        ARView.scene.addAnchor(anchorEntity)
-        
-        // To generate collision shapes (needed for gestures)
-        modelEntity.generateCollisionShapes(recursive: true)
-        
-        // To install the gestures
-        ARView.installGestures([.translation, .rotation, .scale], for: modelEntity)
-        
-        
+        let ARView = ARView()
+        let configuration = ARWorldTrackingConfiguration()
+        configuration.planeDetection = [.horizontal]
+        ARView.session.run(configuration)
+
         return ARView
     }
-    func updateUIView(_ uiView: ARView, context: Context) {}
+    func updateUIView(_ uiView: ARView, context: Context) {
+        guard let modelEntity = try? ModelEntity.load(named: "gramophone") else {
+            print("Error loading model")
+            return
+        }
+        let anchorEntity = AnchorEntity(plane: .horizontal)
+        anchorEntity.addChild(modelEntity)
+        uiView.scene.addAnchor(anchorEntity)
+    }
 }
