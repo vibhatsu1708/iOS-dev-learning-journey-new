@@ -24,7 +24,9 @@ struct SwiftFirebaseBootcampApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                RootView()
+            }
         }
     }
 }

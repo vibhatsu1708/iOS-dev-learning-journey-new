@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14380AE52BA4F63F002EA383 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14380AE42BA4F63F002EA383 /* SettingsView.swift */; };
 		147AC8462BA4D658008F8053 /* SwiftFirebaseBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AC8452BA4D658008F8053 /* SwiftFirebaseBootcampApp.swift */; };
 		147AC8482BA4D658008F8053 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AC8472BA4D658008F8053 /* ContentView.swift */; };
 		147AC84A2BA4D65A008F8053 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147AC8492BA4D65A008F8053 /* Assets.xcassets */; };
@@ -21,6 +22,10 @@
 		147AC87B2BA4DA73008F8053 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 147AC87A2BA4DA73008F8053 /* FirebaseFirestoreSwift */; };
 		147AC87D2BA4DA73008F8053 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 147AC87C2BA4DA73008F8053 /* FirebaseStorage */; };
 		147AC87F2BA4DC17008F8053 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 147AC87E2BA4DC17008F8053 /* GoogleService-Info.plist */; };
+		147AC8822BA4EBD8008F8053 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AC8812BA4EBD8008F8053 /* AuthenticationView.swift */; };
+		147AC8842BA4EDB2008F8053 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AC8832BA4EDB2008F8053 /* SignInEmailView.swift */; };
+		147AC8862BA4EED3008F8053 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AC8852BA4EED3008F8053 /* AuthenticationManager.swift */; };
+		147AC8882BA4F2CB008F8053 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147AC8872BA4F2CB008F8053 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14380AE42BA4F63F002EA383 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		147AC8422BA4D658008F8053 /* SwiftFirebaseBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFirebaseBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147AC8452BA4D658008F8053 /* SwiftFirebaseBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFirebaseBootcampApp.swift; sourceTree = "<group>"; };
 		147AC8472BA4D658008F8053 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +58,10 @@
 		147AC8602BA4D65A008F8053 /* SwiftFirebaseBootcampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFirebaseBootcampUITests.swift; sourceTree = "<group>"; };
 		147AC8622BA4D65A008F8053 /* SwiftFirebaseBootcampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFirebaseBootcampUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		147AC87E2BA4DC17008F8053 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		147AC8812BA4EBD8008F8053 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		147AC8832BA4EDB2008F8053 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		147AC8852BA4EED3008F8053 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		147AC8872BA4F2CB008F8053 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +118,7 @@
 		147AC8442BA4D658008F8053 /* SwiftFirebaseBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				147AC8802BA4EBC4008F8053 /* Authentication */,
 				147AC8452BA4D658008F8053 /* SwiftFirebaseBootcampApp.swift */,
 				147AC8472BA4D658008F8053 /* ContentView.swift */,
 				147AC8492BA4D65A008F8053 /* Assets.xcassets */,
@@ -140,6 +151,18 @@
 				147AC8622BA4D65A008F8053 /* SwiftFirebaseBootcampUITestsLaunchTests.swift */,
 			);
 			path = SwiftFirebaseBootcampUITests;
+			sourceTree = "<group>";
+		};
+		147AC8802BA4EBC4008F8053 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				147AC8872BA4F2CB008F8053 /* RootView.swift */,
+				147AC8812BA4EBD8008F8053 /* AuthenticationView.swift */,
+				147AC8832BA4EDB2008F8053 /* SignInEmailView.swift */,
+				147AC8852BA4EED3008F8053 /* AuthenticationManager.swift */,
+				14380AE42BA4F63F002EA383 /* SettingsView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14380AE52BA4F63F002EA383 /* SettingsView.swift in Sources */,
 				147AC8482BA4D658008F8053 /* ContentView.swift in Sources */,
 				147AC8462BA4D658008F8053 /* SwiftFirebaseBootcampApp.swift in Sources */,
+				147AC8882BA4F2CB008F8053 /* RootView.swift in Sources */,
+				147AC8822BA4EBD8008F8053 /* AuthenticationView.swift in Sources */,
+				147AC8862BA4EED3008F8053 /* AuthenticationManager.swift in Sources */,
+				147AC8842BA4EDB2008F8053 /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
