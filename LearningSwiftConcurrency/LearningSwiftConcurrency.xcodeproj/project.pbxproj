@@ -98,7 +98,7 @@
 			children = (
 				14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */,
 				14D14EC62B97AB1400F90F58 /* ContentView.swift */,
-				14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */,
+				14E28A572BA641F30086BD6C /* Files */,
 				14D14EC82B97AB1600F90F58 /* Assets.xcassets */,
 				14D14ECA2B97AB1600F90F58 /* Preview Content */,
 			);
@@ -128,6 +128,14 @@
 				14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */,
 			);
 			path = LearningSwiftConcurrencyUITests;
+			sourceTree = "<group>";
+		};
+		14E28A572BA641F30086BD6C /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
