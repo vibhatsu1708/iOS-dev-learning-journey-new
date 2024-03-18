@@ -8,7 +8,14 @@
 import SwiftUI
 
 struct AddView: View {
+    @EnvironmentObject var listViewModel: ListViewModel
+    
+    @Environment(\.dismiss) var dismiss
+    
     @State var textfieldText: String = ""
+    
+    @State var showAlert: Bool = false
+    @State var alertTitle: String = ""
     
     var body: some View {
         ScrollView {
@@ -22,7 +29,13 @@ struct AddView: View {
                 Divider()
                 
                 Button {
-                    
+                    if !textfieldText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                        listViewModel.addItem(title: textfieldText)
+                        dismiss()
+                    } else {
+                        alertTitle = "Add some text to your todo."
+                        showAlert = true
+                    }
                 } label: {
                     Text("Save")
                         .font(.headline)
@@ -36,11 +49,16 @@ struct AddView: View {
             .padding()
         }
         .navigationTitle("Add an item!")
+        .alert("Empty title", isPresented: $showAlert) {
+            Button("Ok") {}
+        }
+
     }
 }
 
 #Preview {
     NavigationStack {
         AddView()
+            .environmentObject(ListViewModel())
     }
 }

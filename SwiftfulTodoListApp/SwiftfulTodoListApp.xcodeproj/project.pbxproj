@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149594CB2BA8E17E00B9081D /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149594CA2BA8E17E00B9081D /* ListViewModel.swift */; };
 		149BC6212BA85C6000347F22 /* SwiftfulTodoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC6202BA85C6000347F22 /* SwiftfulTodoListAppApp.swift */; };
 		149BC6252BA85C6200347F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149BC6242BA85C6200347F22 /* Assets.xcassets */; };
 		149BC6282BA85C6200347F22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149BC6272BA85C6200347F22 /* Preview Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149594CA2BA8E17E00B9081D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		149BC61D2BA85C6000347F22 /* SwiftfulTodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulTodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		149BC6202BA85C6000347F22 /* SwiftfulTodoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulTodoListAppApp.swift; sourceTree = "<group>"; };
 		149BC6242BA85C6200347F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		149594C92BA8E16900B9081D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				149594CA2BA8E17E00B9081D /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		149BC6142BA85C6000347F22 = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +110,9 @@
 		149BC61F2BA85C6000347F22 /* SwiftfulTodoListApp */ = {
 			isa = PBXGroup;
 			children = (
-				149BC6522BA8646200347F22 /* Models */,
 				149BC6202BA85C6000347F22 /* SwiftfulTodoListAppApp.swift */,
+				149BC6522BA8646200347F22 /* Models */,
+				149594C92BA8E16900B9081D /* ViewModels */,
 				149BC64A2BA85D2F00347F22 /* Views */,
 				149BC6242BA85C6200347F22 /* Assets.xcassets */,
 				149BC6262BA85C6200347F22 /* Preview Content */,
@@ -284,6 +295,7 @@
 			files = (
 				149BC6542BA8647900347F22 /* ItemModel.swift in Sources */,
 				149BC6502BA8600400347F22 /* AddView.swift in Sources */,
+				149594CB2BA8E17E00B9081D /* ListViewModel.swift in Sources */,
 				149BC64C2BA85D3700347F22 /* ListsView.swift in Sources */,
 				149BC6212BA85C6000347F22 /* SwiftfulTodoListAppApp.swift in Sources */,
 				149BC64E2BA85E9900347F22 /* ListRowView.swift in Sources */,

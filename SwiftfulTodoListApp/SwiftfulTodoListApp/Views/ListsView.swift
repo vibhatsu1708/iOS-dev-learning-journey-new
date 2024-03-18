@@ -8,17 +8,26 @@
 import SwiftUI
 
 struct ListsView: View {
-    @State var items: [ItemModel] = [
-        ItemModel(title: "This is the first title", isCompleted: false),
-        ItemModel(title: "This is the second title", isCompleted: true),
-        ItemModel(title: "This is the third title", isCompleted: false)
-    ]
+    @EnvironmentObject var listViewModel: ListViewModel
     
     var body: some View {
         List {
-            ForEach(items) { item in
+            ForEach(listViewModel.items) { item in
                 ListRowView(item: item)
+                    .swipeActions(edge: .leading) {
+                        Button {
+                            listViewModel.completeItem(item: item)
+                        } label: {
+                            Text(item.isCompleted ? "Undone" : "Done")
+                        }
+                    }
             }
+            .onDelete(perform: { indexSet in
+                listViewModel.deleteItem(indexSet: indexSet)
+            })
+            .onMove(perform: { indices, newOffset in
+                listViewModel.moveItem(from: indices, to: newOffset)
+            })
         }
         .navigationTitle("Todo list")
         .toolbar {
@@ -35,5 +44,6 @@ struct ListsView: View {
 #Preview {
     NavigationStack {
         ListsView()
+            .environmentObject(ListViewModel())
     }
 }
