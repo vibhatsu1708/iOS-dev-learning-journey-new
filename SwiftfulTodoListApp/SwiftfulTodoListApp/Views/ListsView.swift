@@ -11,6 +11,12 @@ struct ListsView: View {
     @EnvironmentObject var listViewModel: ListViewModel
     
     var body: some View {
+        if listViewModel.items.isEmpty {
+            ContentUnavailableView(
+                "Not items in the list",
+                systemImage: "checkmark",
+                description: Text("Add items to list by clicking on the \"Add\" button in the top right corner."))
+        }
         List {
             ForEach(listViewModel.items) { item in
                 ListRowView(item: item)
