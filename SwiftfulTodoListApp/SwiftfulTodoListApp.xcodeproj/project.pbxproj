@@ -7,65 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141FCD322BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */; };
-		14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */; };
-		14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC62B97AB1400F90F58 /* ContentView.swift */; };
-		14D14EC92B97AB1600F90F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D14EC82B97AB1600F90F58 /* Assets.xcassets */; };
-		14D14ECC2B97AB1600F90F58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D14ECB2B97AB1600F90F58 /* Preview Assets.xcassets */; };
-		14D14ED62B97AB1600F90F58 /* LearningSwiftConcurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14ED52B97AB1600F90F58 /* LearningSwiftConcurrencyTests.swift */; };
-		14D14EE02B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EDF2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift */; };
-		14D14EE22B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */; };
-		14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */; };
+		149BC6212BA85C6000347F22 /* SwiftfulTodoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC6202BA85C6000347F22 /* SwiftfulTodoListAppApp.swift */; };
+		149BC6252BA85C6200347F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149BC6242BA85C6200347F22 /* Assets.xcassets */; };
+		149BC6282BA85C6200347F22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149BC6272BA85C6200347F22 /* Preview Assets.xcassets */; };
+		149BC6322BA85C6200347F22 /* SwiftfulTodoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC6312BA85C6200347F22 /* SwiftfulTodoListAppTests.swift */; };
+		149BC63C2BA85C6200347F22 /* SwiftfulTodoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC63B2BA85C6200347F22 /* SwiftfulTodoListAppUITests.swift */; };
+		149BC63E2BA85C6200347F22 /* SwiftfulTodoListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC63D2BA85C6200347F22 /* SwiftfulTodoListAppUITestsLaunchTests.swift */; };
+		149BC64C2BA85D3700347F22 /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC64B2BA85D3700347F22 /* ListsView.swift */; };
+		149BC64E2BA85E9900347F22 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC64D2BA85E9900347F22 /* ListRowView.swift */; };
+		149BC6502BA8600400347F22 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149BC64F2BA8600400347F22 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14D14ED22B97AB1600F90F58 /* PBXContainerItemProxy */ = {
+		149BC62E2BA85C6200347F22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 14D14EB92B97AB1400F90F58 /* Project object */;
+			containerPortal = 149BC6152BA85C6000347F22 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14D14EC02B97AB1400F90F58;
-			remoteInfo = LearningSwiftConcurrency;
+			remoteGlobalIDString = 149BC61C2BA85C6000347F22;
+			remoteInfo = SwiftfulTodoListApp;
 		};
-		14D14EDC2B97AB1600F90F58 /* PBXContainerItemProxy */ = {
+		149BC6382BA85C6200347F22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 14D14EB92B97AB1400F90F58 /* Project object */;
+			containerPortal = 149BC6152BA85C6000347F22 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14D14EC02B97AB1400F90F58;
-			remoteInfo = LearningSwiftConcurrency;
+			remoteGlobalIDString = 149BC61C2BA85C6000347F22;
+			remoteInfo = SwiftfulTodoListApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitDownloadingImages.swift; sourceTree = "<group>"; };
-		14D14EC12B97AB1400F90F58 /* LearningSwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyApp.swift; sourceTree = "<group>"; };
-		14D14EC62B97AB1400F90F58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		14D14EC82B97AB1600F90F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		14D14ECB2B97AB1600F90F58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		14D14ED12B97AB1600F90F58 /* LearningSwiftConcurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningSwiftConcurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14D14ED52B97AB1600F90F58 /* LearningSwiftConcurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyTests.swift; sourceTree = "<group>"; };
-		14D14EDB2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningSwiftConcurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14D14EDF2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyUITests.swift; sourceTree = "<group>"; };
-		14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
+		149BC61D2BA85C6000347F22 /* SwiftfulTodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulTodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		149BC6202BA85C6000347F22 /* SwiftfulTodoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulTodoListAppApp.swift; sourceTree = "<group>"; };
+		149BC6242BA85C6200347F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		149BC6272BA85C6200347F22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		149BC62D2BA85C6200347F22 /* SwiftfulTodoListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulTodoListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149BC6312BA85C6200347F22 /* SwiftfulTodoListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulTodoListAppTests.swift; sourceTree = "<group>"; };
+		149BC6372BA85C6200347F22 /* SwiftfulTodoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftfulTodoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149BC63B2BA85C6200347F22 /* SwiftfulTodoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulTodoListAppUITests.swift; sourceTree = "<group>"; };
+		149BC63D2BA85C6200347F22 /* SwiftfulTodoListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulTodoListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		149BC64B2BA85D3700347F22 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		149BC64D2BA85E9900347F22 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		149BC64F2BA8600400347F22 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14D14EBE2B97AB1400F90F58 /* Frameworks */ = {
+		149BC61A2BA85C6000347F22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14D14ECE2B97AB1600F90F58 /* Frameworks */ = {
+		149BC62A2BA85C6200347F22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14D14ED82B97AB1600F90F58 /* Frameworks */ = {
+		149BC6342BA85C6200347F22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -75,152 +75,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14D14EB82B97AB1400F90F58 = {
+		149BC6142BA85C6000347F22 = {
 			isa = PBXGroup;
 			children = (
-				141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */,
-				14D14EC32B97AB1400F90F58 /* LearningSwiftConcurrency */,
-				14D14ED42B97AB1600F90F58 /* LearningSwiftConcurrencyTests */,
-				14D14EDE2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests */,
-				14D14EC22B97AB1400F90F58 /* Products */,
+				149BC61F2BA85C6000347F22 /* SwiftfulTodoListApp */,
+				149BC6302BA85C6200347F22 /* SwiftfulTodoListAppTests */,
+				149BC63A2BA85C6200347F22 /* SwiftfulTodoListAppUITests */,
+				149BC61E2BA85C6000347F22 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		14D14EC22B97AB1400F90F58 /* Products */ = {
+		149BC61E2BA85C6000347F22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				14D14EC12B97AB1400F90F58 /* LearningSwiftConcurrency.app */,
-				14D14ED12B97AB1600F90F58 /* LearningSwiftConcurrencyTests.xctest */,
-				14D14EDB2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.xctest */,
+				149BC61D2BA85C6000347F22 /* SwiftfulTodoListApp.app */,
+				149BC62D2BA85C6200347F22 /* SwiftfulTodoListAppTests.xctest */,
+				149BC6372BA85C6200347F22 /* SwiftfulTodoListAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		14D14EC32B97AB1400F90F58 /* LearningSwiftConcurrency */ = {
+		149BC61F2BA85C6000347F22 /* SwiftfulTodoListApp */ = {
 			isa = PBXGroup;
 			children = (
-				14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */,
-				14D14EC62B97AB1400F90F58 /* ContentView.swift */,
-				14E28A572BA641F30086BD6C /* Files */,
-				14D14EC82B97AB1600F90F58 /* Assets.xcassets */,
-				14D14ECA2B97AB1600F90F58 /* Preview Content */,
+				149BC6202BA85C6000347F22 /* SwiftfulTodoListAppApp.swift */,
+				149BC64A2BA85D2F00347F22 /* Views */,
+				149BC6242BA85C6200347F22 /* Assets.xcassets */,
+				149BC6262BA85C6200347F22 /* Preview Content */,
 			);
-			path = LearningSwiftConcurrency;
+			path = SwiftfulTodoListApp;
 			sourceTree = "<group>";
 		};
-		14D14ECA2B97AB1600F90F58 /* Preview Content */ = {
+		149BC6262BA85C6200347F22 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				14D14ECB2B97AB1600F90F58 /* Preview Assets.xcassets */,
+				149BC6272BA85C6200347F22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		14D14ED42B97AB1600F90F58 /* LearningSwiftConcurrencyTests */ = {
+		149BC6302BA85C6200347F22 /* SwiftfulTodoListAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				14D14ED52B97AB1600F90F58 /* LearningSwiftConcurrencyTests.swift */,
+				149BC6312BA85C6200347F22 /* SwiftfulTodoListAppTests.swift */,
 			);
-			path = LearningSwiftConcurrencyTests;
+			path = SwiftfulTodoListAppTests;
 			sourceTree = "<group>";
 		};
-		14D14EDE2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests */ = {
+		149BC63A2BA85C6200347F22 /* SwiftfulTodoListAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				14D14EDF2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift */,
-				14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */,
+				149BC63B2BA85C6200347F22 /* SwiftfulTodoListAppUITests.swift */,
+				149BC63D2BA85C6200347F22 /* SwiftfulTodoListAppUITestsLaunchTests.swift */,
 			);
-			path = LearningSwiftConcurrencyUITests;
+			path = SwiftfulTodoListAppUITests;
 			sourceTree = "<group>";
 		};
-		14E28A572BA641F30086BD6C /* Files */ = {
+		149BC64A2BA85D2F00347F22 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */,
+				149BC64B2BA85D3700347F22 /* ListsView.swift */,
+				149BC64F2BA8600400347F22 /* AddView.swift */,
+				149BC64D2BA85E9900347F22 /* ListRowView.swift */,
 			);
-			path = Files;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		14D14EC02B97AB1400F90F58 /* LearningSwiftConcurrency */ = {
+		149BC61C2BA85C6000347F22 /* SwiftfulTodoListApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14D14EE52B97AB1600F90F58 /* Build configuration list for PBXNativeTarget "LearningSwiftConcurrency" */;
+			buildConfigurationList = 149BC6412BA85C6200347F22 /* Build configuration list for PBXNativeTarget "SwiftfulTodoListApp" */;
 			buildPhases = (
-				14D14EBD2B97AB1400F90F58 /* Sources */,
-				14D14EBE2B97AB1400F90F58 /* Frameworks */,
-				14D14EBF2B97AB1400F90F58 /* Resources */,
+				149BC6192BA85C6000347F22 /* Sources */,
+				149BC61A2BA85C6000347F22 /* Frameworks */,
+				149BC61B2BA85C6000347F22 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LearningSwiftConcurrency;
-			productName = LearningSwiftConcurrency;
-			productReference = 14D14EC12B97AB1400F90F58 /* LearningSwiftConcurrency.app */;
+			name = SwiftfulTodoListApp;
+			productName = SwiftfulTodoListApp;
+			productReference = 149BC61D2BA85C6000347F22 /* SwiftfulTodoListApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		14D14ED02B97AB1600F90F58 /* LearningSwiftConcurrencyTests */ = {
+		149BC62C2BA85C6200347F22 /* SwiftfulTodoListAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14D14EE82B97AB1600F90F58 /* Build configuration list for PBXNativeTarget "LearningSwiftConcurrencyTests" */;
+			buildConfigurationList = 149BC6442BA85C6200347F22 /* Build configuration list for PBXNativeTarget "SwiftfulTodoListAppTests" */;
 			buildPhases = (
-				14D14ECD2B97AB1600F90F58 /* Sources */,
-				14D14ECE2B97AB1600F90F58 /* Frameworks */,
-				14D14ECF2B97AB1600F90F58 /* Resources */,
+				149BC6292BA85C6200347F22 /* Sources */,
+				149BC62A2BA85C6200347F22 /* Frameworks */,
+				149BC62B2BA85C6200347F22 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				14D14ED32B97AB1600F90F58 /* PBXTargetDependency */,
+				149BC62F2BA85C6200347F22 /* PBXTargetDependency */,
 			);
-			name = LearningSwiftConcurrencyTests;
-			productName = LearningSwiftConcurrencyTests;
-			productReference = 14D14ED12B97AB1600F90F58 /* LearningSwiftConcurrencyTests.xctest */;
+			name = SwiftfulTodoListAppTests;
+			productName = SwiftfulTodoListAppTests;
+			productReference = 149BC62D2BA85C6200347F22 /* SwiftfulTodoListAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		14D14EDA2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests */ = {
+		149BC6362BA85C6200347F22 /* SwiftfulTodoListAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14D14EEB2B97AB1600F90F58 /* Build configuration list for PBXNativeTarget "LearningSwiftConcurrencyUITests" */;
+			buildConfigurationList = 149BC6472BA85C6200347F22 /* Build configuration list for PBXNativeTarget "SwiftfulTodoListAppUITests" */;
 			buildPhases = (
-				14D14ED72B97AB1600F90F58 /* Sources */,
-				14D14ED82B97AB1600F90F58 /* Frameworks */,
-				14D14ED92B97AB1600F90F58 /* Resources */,
+				149BC6332BA85C6200347F22 /* Sources */,
+				149BC6342BA85C6200347F22 /* Frameworks */,
+				149BC6352BA85C6200347F22 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				14D14EDD2B97AB1600F90F58 /* PBXTargetDependency */,
+				149BC6392BA85C6200347F22 /* PBXTargetDependency */,
 			);
-			name = LearningSwiftConcurrencyUITests;
-			productName = LearningSwiftConcurrencyUITests;
-			productReference = 14D14EDB2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.xctest */;
+			name = SwiftfulTodoListAppUITests;
+			productName = SwiftfulTodoListAppUITests;
+			productReference = 149BC6372BA85C6200347F22 /* SwiftfulTodoListAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		14D14EB92B97AB1400F90F58 /* Project object */ = {
+		149BC6152BA85C6000347F22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					14D14EC02B97AB1400F90F58 = {
-						CreatedOnToolsVersion = 15.2;
+					149BC61C2BA85C6000347F22 = {
+						CreatedOnToolsVersion = 15.3;
 					};
-					14D14ED02B97AB1600F90F58 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 14D14EC02B97AB1400F90F58;
+					149BC62C2BA85C6200347F22 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 149BC61C2BA85C6000347F22;
 					};
-					14D14EDA2B97AB1600F90F58 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 14D14EC02B97AB1400F90F58;
+					149BC6362BA85C6200347F22 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 149BC61C2BA85C6000347F22;
 					};
 				};
 			};
-			buildConfigurationList = 14D14EBC2B97AB1400F90F58 /* Build configuration list for PBXProject "LearningSwiftConcurrency" */;
+			buildConfigurationList = 149BC6182BA85C6000347F22 /* Build configuration list for PBXProject "SwiftfulTodoListApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,36 +228,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 14D14EB82B97AB1400F90F58;
-			productRefGroup = 14D14EC22B97AB1400F90F58 /* Products */;
+			mainGroup = 149BC6142BA85C6000347F22;
+			productRefGroup = 149BC61E2BA85C6000347F22 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				14D14EC02B97AB1400F90F58 /* LearningSwiftConcurrency */,
-				14D14ED02B97AB1600F90F58 /* LearningSwiftConcurrencyTests */,
-				14D14EDA2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests */,
+				149BC61C2BA85C6000347F22 /* SwiftfulTodoListApp */,
+				149BC62C2BA85C6200347F22 /* SwiftfulTodoListAppTests */,
+				149BC6362BA85C6200347F22 /* SwiftfulTodoListAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		14D14EBF2B97AB1400F90F58 /* Resources */ = {
+		149BC61B2BA85C6000347F22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D14ECC2B97AB1600F90F58 /* Preview Assets.xcassets in Resources */,
-				14D14EC92B97AB1600F90F58 /* Assets.xcassets in Resources */,
+				149BC6282BA85C6200347F22 /* Preview Assets.xcassets in Resources */,
+				149BC6252BA85C6200347F22 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14D14ECF2B97AB1600F90F58 /* Resources */ = {
+		149BC62B2BA85C6200347F22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14D14ED92B97AB1600F90F58 /* Resources */ = {
+		149BC6352BA85C6200347F22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,51 +267,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14D14EBD2B97AB1400F90F58 /* Sources */ = {
+		149BC6192BA85C6000347F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141FCD322BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift in Sources */,
-				14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */,
-				14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */,
-				14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */,
+				149BC6502BA8600400347F22 /* AddView.swift in Sources */,
+				149BC64C2BA85D3700347F22 /* ListsView.swift in Sources */,
+				149BC6212BA85C6000347F22 /* SwiftfulTodoListAppApp.swift in Sources */,
+				149BC64E2BA85E9900347F22 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14D14ECD2B97AB1600F90F58 /* Sources */ = {
+		149BC6292BA85C6200347F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D14ED62B97AB1600F90F58 /* LearningSwiftConcurrencyTests.swift in Sources */,
+				149BC6322BA85C6200347F22 /* SwiftfulTodoListAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14D14ED72B97AB1600F90F58 /* Sources */ = {
+		149BC6332BA85C6200347F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14D14EE22B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift in Sources */,
-				14D14EE02B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift in Sources */,
+				149BC63E2BA85C6200347F22 /* SwiftfulTodoListAppUITestsLaunchTests.swift in Sources */,
+				149BC63C2BA85C6200347F22 /* SwiftfulTodoListAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14D14ED32B97AB1600F90F58 /* PBXTargetDependency */ = {
+		149BC62F2BA85C6200347F22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14D14EC02B97AB1400F90F58 /* LearningSwiftConcurrency */;
-			targetProxy = 14D14ED22B97AB1600F90F58 /* PBXContainerItemProxy */;
+			target = 149BC61C2BA85C6000347F22 /* SwiftfulTodoListApp */;
+			targetProxy = 149BC62E2BA85C6200347F22 /* PBXContainerItemProxy */;
 		};
-		14D14EDD2B97AB1600F90F58 /* PBXTargetDependency */ = {
+		149BC6392BA85C6200347F22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 14D14EC02B97AB1400F90F58 /* LearningSwiftConcurrency */;
-			targetProxy = 14D14EDC2B97AB1600F90F58 /* PBXContainerItemProxy */;
+			target = 149BC61C2BA85C6000347F22 /* SwiftfulTodoListApp */;
+			targetProxy = 149BC6382BA85C6200347F22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14D14EE32B97AB1600F90F58 /* Debug */ = {
+		149BC63F2BA85C6200347F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -374,7 +374,7 @@
 			};
 			name = Debug;
 		};
-		14D14EE42B97AB1600F90F58 /* Release */ = {
+		149BC6402BA85C6200347F22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -430,14 +430,14 @@
 			};
 			name = Release;
 		};
-		14D14EE62B97AB1600F90F58 /* Debug */ = {
+		149BC6422BA85C6200347F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearningSwiftConcurrency/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulTodoListApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -451,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.LearningSwiftConcurrency;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.SwiftfulTodoListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,14 +459,14 @@
 			};
 			name = Debug;
 		};
-		14D14EE72B97AB1600F90F58 /* Release */ = {
+		149BC6432BA85C6200347F22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearningSwiftConcurrency/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulTodoListApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -480,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.LearningSwiftConcurrency;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.SwiftfulTodoListApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -488,7 +488,7 @@
 			};
 			name = Release;
 		};
-		14D14EE92B97AB1600F90F58 /* Debug */ = {
+		149BC6452BA85C6200347F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -497,18 +497,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.LearningSwiftConcurrencyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.SwiftfulTodoListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningSwiftConcurrency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningSwiftConcurrency";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftfulTodoListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftfulTodoListApp";
 			};
 			name = Debug;
 		};
-		14D14EEA2B97AB1600F90F58 /* Release */ = {
+		149BC6462BA85C6200347F22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,18 +517,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.LearningSwiftConcurrencyTests;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.SwiftfulTodoListAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningSwiftConcurrency.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningSwiftConcurrency";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftfulTodoListApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftfulTodoListApp";
 			};
 			name = Release;
 		};
-		14D14EEC2B97AB1600F90F58 /* Debug */ = {
+		149BC6482BA85C6200347F22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,16 +537,16 @@
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.LearningSwiftConcurrencyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.SwiftfulTodoListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LearningSwiftConcurrency;
+				TEST_TARGET_NAME = SwiftfulTodoListApp;
 			};
 			name = Debug;
 		};
-		14D14EED2B97AB1600F90F58 /* Release */ = {
+		149BC6492BA85C6200347F22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,55 +555,55 @@
 				DEVELOPMENT_TEAM = 39X532FCX5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.LearningSwiftConcurrencyUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.SwiftfulTodoListAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LearningSwiftConcurrency;
+				TEST_TARGET_NAME = SwiftfulTodoListApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14D14EBC2B97AB1400F90F58 /* Build configuration list for PBXProject "LearningSwiftConcurrency" */ = {
+		149BC6182BA85C6000347F22 /* Build configuration list for PBXProject "SwiftfulTodoListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14D14EE32B97AB1600F90F58 /* Debug */,
-				14D14EE42B97AB1600F90F58 /* Release */,
+				149BC63F2BA85C6200347F22 /* Debug */,
+				149BC6402BA85C6200347F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14D14EE52B97AB1600F90F58 /* Build configuration list for PBXNativeTarget "LearningSwiftConcurrency" */ = {
+		149BC6412BA85C6200347F22 /* Build configuration list for PBXNativeTarget "SwiftfulTodoListApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14D14EE62B97AB1600F90F58 /* Debug */,
-				14D14EE72B97AB1600F90F58 /* Release */,
+				149BC6422BA85C6200347F22 /* Debug */,
+				149BC6432BA85C6200347F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14D14EE82B97AB1600F90F58 /* Build configuration list for PBXNativeTarget "LearningSwiftConcurrencyTests" */ = {
+		149BC6442BA85C6200347F22 /* Build configuration list for PBXNativeTarget "SwiftfulTodoListAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14D14EE92B97AB1600F90F58 /* Debug */,
-				14D14EEA2B97AB1600F90F58 /* Release */,
+				149BC6452BA85C6200347F22 /* Debug */,
+				149BC6462BA85C6200347F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		14D14EEB2B97AB1600F90F58 /* Build configuration list for PBXNativeTarget "LearningSwiftConcurrencyUITests" */ = {
+		149BC6472BA85C6200347F22 /* Build configuration list for PBXNativeTarget "SwiftfulTodoListAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				14D14EEC2B97AB1600F90F58 /* Debug */,
-				14D14EED2B97AB1600F90F58 /* Release */,
+				149BC6482BA85C6200347F22 /* Debug */,
+				149BC6492BA85C6200347F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 14D14EB92B97AB1400F90F58 /* Project object */;
+	rootObject = 149BC6152BA85C6000347F22 /* Project object */;
 }

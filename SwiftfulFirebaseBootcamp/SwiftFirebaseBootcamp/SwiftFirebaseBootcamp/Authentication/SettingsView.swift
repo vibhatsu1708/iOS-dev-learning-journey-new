@@ -33,6 +33,19 @@ struct SettingsView: View {
             } label: {
                 Text("Log out")
             }
+            
+            Button {
+                Task {
+                    do {
+                        try viewModel.signout()
+                        showSignInView = true
+                    } catch {
+                        print("Error: \(error)")
+                    }
+                }
+            } label: {
+                Text("Reset password")
+            }
         }
         .navigationTitle("Settings")
     }
