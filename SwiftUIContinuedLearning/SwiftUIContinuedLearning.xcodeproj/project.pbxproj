@@ -17,6 +17,7 @@
 		14192FD02BAA3720000FA483 /* OnLongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14192FCF2BAA3720000FA483 /* OnLongPressGesture.swift */; };
 		141CEFD72BAB75E6003856C8 /* ScrollViewReaderLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFD62BAB75E6003856C8 /* ScrollViewReaderLearning.swift */; };
 		141CEFD92BAB7A00003856C8 /* GeometryReaderLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFD82BAB7A00003856C8 /* GeometryReaderLearning.swift */; };
+		141CEFDB2BAB867C003856C8 /* MultipleSheetsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFDA2BAB867C003856C8 /* MultipleSheetsLearning.swift */; };
 		148E8E852BAB1F6F005619AA /* DragGestureLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E8E842BAB1F6F005619AA /* DragGestureLearning.swift */; };
 		148E8E872BAB25DE005619AA /* DragGestureLearning2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E8E862BAB25DE005619AA /* DragGestureLearning2.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		14192FCF2BAA3720000FA483 /* OnLongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLongPressGesture.swift; sourceTree = "<group>"; };
 		141CEFD62BAB75E6003856C8 /* ScrollViewReaderLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderLearning.swift; sourceTree = "<group>"; };
 		141CEFD82BAB7A00003856C8 /* GeometryReaderLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderLearning.swift; sourceTree = "<group>"; };
+		141CEFDA2BAB867C003856C8 /* MultipleSheetsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsLearning.swift; sourceTree = "<group>"; };
 		148E8E842BAB1F6F005619AA /* DragGestureLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureLearning.swift; sourceTree = "<group>"; };
 		148E8E862BAB25DE005619AA /* DragGestureLearning2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureLearning2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 		14192F992BAA36CC000FA483 = {
 			isa = PBXGroup;
 			children = (
+				141CEFDA2BAB867C003856C8 /* MultipleSheetsLearning.swift */,
 				141CEFD82BAB7A00003856C8 /* GeometryReaderLearning.swift */,
 				141CEFD62BAB75E6003856C8 /* ScrollViewReaderLearning.swift */,
 				148E8E842BAB1F6F005619AA /* DragGestureLearning.swift */,
@@ -279,6 +282,7 @@
 				14192FA62BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift in Sources */,
 				14192FD02BAA3720000FA483 /* OnLongPressGesture.swift in Sources */,
 				148E8E872BAB25DE005619AA /* DragGestureLearning2.swift in Sources */,
+				141CEFDB2BAB867C003856C8 /* MultipleSheetsLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
