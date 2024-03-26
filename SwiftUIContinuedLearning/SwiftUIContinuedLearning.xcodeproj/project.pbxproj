@@ -18,6 +18,10 @@
 		141CEFD72BAB75E6003856C8 /* ScrollViewReaderLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFD62BAB75E6003856C8 /* ScrollViewReaderLearning.swift */; };
 		141CEFD92BAB7A00003856C8 /* GeometryReaderLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFD82BAB7A00003856C8 /* GeometryReaderLearning.swift */; };
 		141CEFDB2BAB867C003856C8 /* MultipleSheetsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFDA2BAB867C003856C8 /* MultipleSheetsLearning.swift */; };
+		1443F6372BB1ECF1008D1C8C /* CoreDataLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */; };
+		1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6382BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld */; };
+		146534D42BB226AF002539C0 /* CoreDataRelationshipsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */; };
+		146534D72BB228B5002539C0 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146534D52BB228B5002539C0 /* CoreDataContainer.xcdatamodeld */; };
 		146EF53E2BADACDE00511077 /* SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146EF53D2BADACDE00511077 /* SortFilterMap.swift */; };
 		148720AF2BACBE1E0072EC9B /* MaskLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148720AE2BACBE1E0072EC9B /* MaskLearning.swift */; };
 		148720B12BACC2630072EC9B /* LocalNotificationsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148720B02BACC2630072EC9B /* LocalNotificationsLearning.swift */; };
@@ -58,6 +62,10 @@
 		141CEFD62BAB75E6003856C8 /* ScrollViewReaderLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderLearning.swift; sourceTree = "<group>"; };
 		141CEFD82BAB7A00003856C8 /* GeometryReaderLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderLearning.swift; sourceTree = "<group>"; };
 		141CEFDA2BAB867C003856C8 /* MultipleSheetsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsLearning.swift; sourceTree = "<group>"; };
+		1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLearning.swift; sourceTree = "<group>"; };
+		1443F6392BB1EE16008D1C8C /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsLearning.swift; sourceTree = "<group>"; };
+		146534D62BB228B5002539C0 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		146EF53D2BADACDE00511077 /* SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMap.swift; sourceTree = "<group>"; };
 		148720AE2BACBE1E0072EC9B /* MaskLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskLearning.swift; sourceTree = "<group>"; };
 		148720B02BACC2630072EC9B /* LocalNotificationsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsLearning.swift; sourceTree = "<group>"; };
@@ -94,7 +102,11 @@
 		14192F992BAA36CC000FA483 = {
 			isa = PBXGroup;
 			children = (
+				146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */,
+				146534D52BB228B5002539C0 /* CoreDataContainer.xcdatamodeld */,
 				14A5D8E32BAD95D900F48A62 /* HashableLearning.swift */,
+				1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */,
+				1443F6382BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld */,
 				146EF53D2BADACDE00511077 /* SortFilterMap.swift */,
 				14192FA42BAA36CC000FA483 /* SwiftUIContinuedLearning */,
 				14192FB52BAA36CD000FA483 /* SwiftUIContinuedLearningTests */,
@@ -289,16 +301,20 @@
 			files = (
 				141CEFD72BAB75E6003856C8 /* ScrollViewReaderLearning.swift in Sources */,
 				141CEFD92BAB7A00003856C8 /* GeometryReaderLearning.swift in Sources */,
+				1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */,
 				14192FA82BAA36CC000FA483 /* ContentView.swift in Sources */,
 				148E8E852BAB1F6F005619AA /* DragGestureLearning.swift in Sources */,
 				148720B12BACC2630072EC9B /* LocalNotificationsLearning.swift in Sources */,
 				14192FA62BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift in Sources */,
 				14192FD02BAA3720000FA483 /* OnLongPressGesture.swift in Sources */,
+				1443F6372BB1ECF1008D1C8C /* CoreDataLearning.swift in Sources */,
 				148E8E872BAB25DE005619AA /* DragGestureLearning2.swift in Sources */,
 				141CEFDB2BAB867C003856C8 /* MultipleSheetsLearning.swift in Sources */,
 				148720AF2BACBE1E0072EC9B /* MaskLearning.swift in Sources */,
+				146534D72BB228B5002539C0 /* CoreDataContainer.xcdatamodeld in Sources */,
 				146EF53E2BADACDE00511077 /* SortFilterMap.swift in Sources */,
 				14A5D8E42BAD95D900F48A62 /* HashableLearning.swift in Sources */,
+				146534D42BB226AF002539C0 /* CoreDataRelationshipsLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +644,31 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1443F6382BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1443F6392BB1EE16008D1C8C /* FruitsContainer.xcdatamodel */,
+			);
+			currentVersion = 1443F6392BB1EE16008D1C8C /* FruitsContainer.xcdatamodel */;
+			name = FruitsContainer.xcdatamodeld;
+			path = "/Users/vedantmistry/iOS-dev-learning-journey-new/SwiftUIContinuedLearning/FruitsContainer.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		146534D52BB228B5002539C0 /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				146534D62BB228B5002539C0 /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 146534D62BB228B5002539C0 /* CoreDataContainer.xcdatamodel */;
+			name = CoreDataContainer.xcdatamodeld;
+			path = "/Users/vedantmistry/iOS-dev-learning-journey-new/SwiftUIContinuedLearning/CoreDataContainer.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 14192F9A2BAA36CC000FA483 /* Project object */;
 }
