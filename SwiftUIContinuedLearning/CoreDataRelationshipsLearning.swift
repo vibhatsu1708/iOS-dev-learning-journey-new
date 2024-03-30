@@ -247,7 +247,7 @@ struct EmployeeView: View {
             
             Text("Age: \(entity.age)")
             
-            Text("Date joined: \(entity.dateJoined)")
+            Text("Date joined: \(String(describing: entity.dateJoined))")
             
             Text("Business")
                 .bold()

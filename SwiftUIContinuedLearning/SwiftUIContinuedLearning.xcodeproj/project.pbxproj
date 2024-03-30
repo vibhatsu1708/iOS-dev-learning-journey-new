@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1408366F2BB88C8000AC0724 /* CodableLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408366E2BB88C8000AC0724 /* CodableLearning.swift */; };
+		140836712BB88CAE00AC0724 /* MultithreadingThreadsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140836702BB88CAE00AC0724 /* MultithreadingThreadsLearning.swift */; };
 		14192FA62BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14192FA52BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift */; };
 		14192FA82BAA36CC000FA483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14192FA72BAA36CC000FA483 /* ContentView.swift */; };
 		14192FAA2BAA36CD000FA483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14192FA92BAA36CD000FA483 /* Assets.xcassets */; };
@@ -48,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1408366E2BB88C8000AC0724 /* CodableLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableLearning.swift; sourceTree = "<group>"; };
+		140836702BB88CAE00AC0724 /* MultithreadingThreadsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingThreadsLearning.swift; sourceTree = "<group>"; };
 		14192FA22BAA36CC000FA483 /* SwiftUIContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14192FA52BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContinuedLearningApp.swift; sourceTree = "<group>"; };
 		14192FA72BAA36CC000FA483 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 		14192F992BAA36CC000FA483 = {
 			isa = PBXGroup;
 			children = (
+				140836702BB88CAE00AC0724 /* MultithreadingThreadsLearning.swift */,
+				1408366E2BB88C8000AC0724 /* CodableLearning.swift */,
 				146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */,
 				146534D52BB228B5002539C0 /* CoreDataContainer.xcdatamodeld */,
 				14A5D8E32BAD95D900F48A62 /* HashableLearning.swift */,
@@ -306,12 +312,14 @@
 				148E8E852BAB1F6F005619AA /* DragGestureLearning.swift in Sources */,
 				148720B12BACC2630072EC9B /* LocalNotificationsLearning.swift in Sources */,
 				14192FA62BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift in Sources */,
+				1408366F2BB88C8000AC0724 /* CodableLearning.swift in Sources */,
 				14192FD02BAA3720000FA483 /* OnLongPressGesture.swift in Sources */,
 				1443F6372BB1ECF1008D1C8C /* CoreDataLearning.swift in Sources */,
 				148E8E872BAB25DE005619AA /* DragGestureLearning2.swift in Sources */,
 				141CEFDB2BAB867C003856C8 /* MultipleSheetsLearning.swift in Sources */,
 				148720AF2BACBE1E0072EC9B /* MaskLearning.swift in Sources */,
 				146534D72BB228B5002539C0 /* CoreDataContainer.xcdatamodeld in Sources */,
+				140836712BB88CAE00AC0724 /* MultithreadingThreadsLearning.swift in Sources */,
 				146EF53E2BADACDE00511077 /* SortFilterMap.swift in Sources */,
 				14A5D8E42BAD95D900F48A62 /* HashableLearning.swift in Sources */,
 				146534D42BB226AF002539C0 /* CoreDataRelationshipsLearning.swift in Sources */,
