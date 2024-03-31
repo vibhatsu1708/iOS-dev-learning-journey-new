@@ -28,6 +28,7 @@
 		146534D42BB226AF002539C0 /* CoreDataRelationshipsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */; };
 		146534D72BB228B5002539C0 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146534D52BB228B5002539C0 /* CoreDataContainer.xcdatamodeld */; };
 		146EF53E2BADACDE00511077 /* SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146EF53D2BADACDE00511077 /* SortFilterMap.swift */; };
+		1473668F2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1473668E2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift */; };
 		148720AF2BACBE1E0072EC9B /* MaskLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148720AE2BACBE1E0072EC9B /* MaskLearning.swift */; };
 		148720B12BACC2630072EC9B /* LocalNotificationsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148720B02BACC2630072EC9B /* LocalNotificationsLearning.swift */; };
 		148E8E852BAB1F6F005619AA /* DragGestureLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E8E842BAB1F6F005619AA /* DragGestureLearning.swift */; };
@@ -77,6 +78,7 @@
 		146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsLearning.swift; sourceTree = "<group>"; };
 		146534D62BB228B5002539C0 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		146EF53D2BADACDE00511077 /* SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMap.swift; sourceTree = "<group>"; };
+		1473668E2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonWithEscapingLearning.swift; sourceTree = "<group>"; };
 		148720AE2BACBE1E0072EC9B /* MaskLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskLearning.swift; sourceTree = "<group>"; };
 		148720B02BACC2630072EC9B /* LocalNotificationsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationsLearning.swift; sourceTree = "<group>"; };
 		148E8E842BAB1F6F005619AA /* DragGestureLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureLearning.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		14192F992BAA36CC000FA483 = {
 			isa = PBXGroup;
 			children = (
+				1473668E2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift */,
 				145AE8402BB98A120001E6E1 /* EscapingClosures.swift */,
 				145AE83E2BB986BC0001E6E1 /* TypeAliasLearning.swift */,
 				145CCF082BB8C8F30069726D /* WeakSelfLearning.swift */,
@@ -319,6 +322,7 @@
 				141CEFD92BAB7A00003856C8 /* GeometryReaderLearning.swift in Sources */,
 				1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */,
 				14192FA82BAA36CC000FA483 /* ContentView.swift in Sources */,
+				1473668F2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift in Sources */,
 				148E8E852BAB1F6F005619AA /* DragGestureLearning.swift in Sources */,
 				148720B12BACC2630072EC9B /* LocalNotificationsLearning.swift in Sources */,
 				14192FA62BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift in Sources */,
