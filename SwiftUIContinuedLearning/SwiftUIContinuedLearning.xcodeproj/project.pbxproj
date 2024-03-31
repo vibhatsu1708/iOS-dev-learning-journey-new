@@ -23,6 +23,7 @@
 		1443F6372BB1ECF1008D1C8C /* CoreDataLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */; };
 		1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6382BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld */; };
 		145AE83F2BB986BC0001E6E1 /* TypeAliasLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145AE83E2BB986BC0001E6E1 /* TypeAliasLearning.swift */; };
+		145AE8412BB98A120001E6E1 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145AE8402BB98A120001E6E1 /* EscapingClosures.swift */; };
 		145CCF092BB8C8F30069726D /* WeakSelfLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145CCF082BB8C8F30069726D /* WeakSelfLearning.swift */; };
 		146534D42BB226AF002539C0 /* CoreDataRelationshipsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */; };
 		146534D72BB228B5002539C0 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146534D52BB228B5002539C0 /* CoreDataContainer.xcdatamodeld */; };
@@ -71,6 +72,7 @@
 		1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLearning.swift; sourceTree = "<group>"; };
 		1443F6392BB1EE16008D1C8C /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		145AE83E2BB986BC0001E6E1 /* TypeAliasLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliasLearning.swift; sourceTree = "<group>"; };
+		145AE8402BB98A120001E6E1 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
 		145CCF082BB8C8F30069726D /* WeakSelfLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfLearning.swift; sourceTree = "<group>"; };
 		146534D32BB226AF002539C0 /* CoreDataRelationshipsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRelationshipsLearning.swift; sourceTree = "<group>"; };
 		146534D62BB228B5002539C0 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		14192F992BAA36CC000FA483 = {
 			isa = PBXGroup;
 			children = (
+				145AE8402BB98A120001E6E1 /* EscapingClosures.swift */,
 				145AE83E2BB986BC0001E6E1 /* TypeAliasLearning.swift */,
 				145CCF082BB8C8F30069726D /* WeakSelfLearning.swift */,
 				140836702BB88CAE00AC0724 /* MultithreadingThreadsLearning.swift */,
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				141CEFD72BAB75E6003856C8 /* ScrollViewReaderLearning.swift in Sources */,
+				145AE8412BB98A120001E6E1 /* EscapingClosures.swift in Sources */,
 				141CEFD92BAB7A00003856C8 /* GeometryReaderLearning.swift in Sources */,
 				1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */,
 				14192FA82BAA36CC000FA483 /* ContentView.swift in Sources */,
