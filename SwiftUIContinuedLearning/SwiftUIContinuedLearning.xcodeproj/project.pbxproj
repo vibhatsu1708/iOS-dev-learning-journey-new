@@ -23,6 +23,7 @@
 		1443F6372BB1ECF1008D1C8C /* CoreDataLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */; };
 		1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6382BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld */; };
 		144D1BD02BBAD40B00D3B339 /* DownloadJsonWithCombineLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D1BCF2BBAD40B00D3B339 /* DownloadJsonWithCombineLearning.swift */; };
+		144D1BD22BBAE2F000D3B339 /* TimersAndOnReceiveLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D1BD12BBAE2F000D3B339 /* TimersAndOnReceiveLearning.swift */; };
 		145AE83F2BB986BC0001E6E1 /* TypeAliasLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145AE83E2BB986BC0001E6E1 /* TypeAliasLearning.swift */; };
 		145AE8412BB98A120001E6E1 /* EscapingClosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145AE8402BB98A120001E6E1 /* EscapingClosures.swift */; };
 		145CCF092BB8C8F30069726D /* WeakSelfLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145CCF082BB8C8F30069726D /* WeakSelfLearning.swift */; };
@@ -74,6 +75,7 @@
 		1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLearning.swift; sourceTree = "<group>"; };
 		1443F6392BB1EE16008D1C8C /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		144D1BCF2BBAD40B00D3B339 /* DownloadJsonWithCombineLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonWithCombineLearning.swift; sourceTree = "<group>"; };
+		144D1BD12BBAE2F000D3B339 /* TimersAndOnReceiveLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersAndOnReceiveLearning.swift; sourceTree = "<group>"; };
 		145AE83E2BB986BC0001E6E1 /* TypeAliasLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliasLearning.swift; sourceTree = "<group>"; };
 		145AE8402BB98A120001E6E1 /* EscapingClosures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosures.swift; sourceTree = "<group>"; };
 		145CCF082BB8C8F30069726D /* WeakSelfLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfLearning.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		14192F992BAA36CC000FA483 = {
 			isa = PBXGroup;
 			children = (
+				144D1BD12BBAE2F000D3B339 /* TimersAndOnReceiveLearning.swift */,
 				144D1BCF2BBAD40B00D3B339 /* DownloadJsonWithCombineLearning.swift */,
 				1473668E2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift */,
 				145AE8402BB98A120001E6E1 /* EscapingClosures.swift */,
@@ -324,6 +327,7 @@
 				145AE8412BB98A120001E6E1 /* EscapingClosures.swift in Sources */,
 				141CEFD92BAB7A00003856C8 /* GeometryReaderLearning.swift in Sources */,
 				1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */,
+				144D1BD22BBAE2F000D3B339 /* TimersAndOnReceiveLearning.swift in Sources */,
 				14192FA82BAA36CC000FA483 /* ContentView.swift in Sources */,
 				1473668F2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift in Sources */,
 				148E8E852BAB1F6F005619AA /* DragGestureLearning.swift in Sources */,
