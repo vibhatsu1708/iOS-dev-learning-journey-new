@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14108E172BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14108E162BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift */; };
 		141FCD322BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */; };
 		14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */; };
 		14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC62B97AB1400F90F58 /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14108E162BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDoTryCatchThrowsLearning.swift; sourceTree = "<group>"; };
 		141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitDownloadingImages.swift; sourceTree = "<group>"; };
 		14D14EC12B97AB1400F90F58 /* LearningSwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyApp.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		14D14EB82B97AB1400F90F58 = {
 			isa = PBXGroup;
 			children = (
+				14108E162BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift */,
 				141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */,
 				14D14EC32B97AB1400F90F58 /* LearningSwiftConcurrency */,
 				14D14ED42B97AB1600F90F58 /* LearningSwiftConcurrencyTests */,
@@ -274,6 +277,7 @@
 				141FCD322BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift in Sources */,
 				14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */,
 				14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */,
+				14108E172BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift in Sources */,
 				14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
