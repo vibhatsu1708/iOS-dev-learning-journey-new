@@ -11,7 +11,7 @@ import SwiftUI
 struct LearningSwiftConcurrencyApp: App {
     var body: some Scene {
         WindowGroup {
-            DownloadingImagesUsingAsyncAwaitLearning()
+            AsyncAwaitKeywordsLearning()
         }
     }
 }
