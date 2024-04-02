@@ -17,6 +17,7 @@
 		14D14EE02B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EDF2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift */; };
 		14D14EE22B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */; };
 		14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */; };
+		14E94C0D2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E94C0C2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		14D14EDF2B97AB1600F90F58 /* LearningSwiftConcurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyUITests.swift; sourceTree = "<group>"; };
 		14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
+		14E94C0C2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesUsingAsyncAwaitLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				14108E162BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift */,
+				14E94C0C2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift */,
 				141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */,
 				14D14EC32B97AB1400F90F58 /* LearningSwiftConcurrency */,
 				14D14ED42B97AB1600F90F58 /* LearningSwiftConcurrencyTests */,
@@ -279,6 +282,7 @@
 				14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */,
 				14108E172BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift in Sources */,
 				14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */,
+				14E94C0D2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
