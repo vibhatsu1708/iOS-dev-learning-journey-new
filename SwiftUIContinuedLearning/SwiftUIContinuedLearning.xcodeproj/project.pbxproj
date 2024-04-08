@@ -21,6 +21,7 @@
 		141CEFD92BAB7A00003856C8 /* GeometryReaderLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFD82BAB7A00003856C8 /* GeometryReaderLearning.swift */; };
 		141CEFDB2BAB867C003856C8 /* MultipleSheetsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141CEFDA2BAB867C003856C8 /* MultipleSheetsLearning.swift */; };
 		141D8B0C2BC487A000221160 /* FileManagerLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141D8B0B2BC487A000221160 /* FileManagerLearning.swift */; };
+		141D8B102BC49DD700221160 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 141D8B0F2BC49DD700221160 /* image.png */; };
 		1443F6372BB1ECF1008D1C8C /* CoreDataLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */; };
 		1443F63A2BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1443F6382BB1EE16008D1C8C /* FruitsContainer.xcdatamodeld */; };
 		144D1BD02BBAD40B00D3B339 /* DownloadJsonWithCombineLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144D1BCF2BBAD40B00D3B339 /* DownloadJsonWithCombineLearning.swift */; };
@@ -75,6 +76,7 @@
 		141CEFD82BAB7A00003856C8 /* GeometryReaderLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderLearning.swift; sourceTree = "<group>"; };
 		141CEFDA2BAB867C003856C8 /* MultipleSheetsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsLearning.swift; sourceTree = "<group>"; };
 		141D8B0B2BC487A000221160 /* FileManagerLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerLearning.swift; sourceTree = "<group>"; };
+		141D8B0F2BC49DD700221160 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		1443F6362BB1ECF1008D1C8C /* CoreDataLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataLearning.swift; sourceTree = "<group>"; };
 		1443F6392BB1EE16008D1C8C /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		144D1BCF2BBAD40B00D3B339 /* DownloadJsonWithCombineLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonWithCombineLearning.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				14192FA52BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift */,
 				14192FA72BAA36CC000FA483 /* ContentView.swift */,
 				14192FCF2BAA3720000FA483 /* OnLongPressGesture.swift */,
+				141D8B0F2BC49DD700221160 /* image.png */,
 				14192FA92BAA36CD000FA483 /* Assets.xcassets */,
 				14192FAB2BAA36CD000FA483 /* Preview Content */,
 			);
@@ -305,6 +308,7 @@
 			files = (
 				14192FAD2BAA36CD000FA483 /* Preview Assets.xcassets in Resources */,
 				14192FAA2BAA36CD000FA483 /* Assets.xcassets in Resources */,
+				141D8B102BC49DD700221160 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
