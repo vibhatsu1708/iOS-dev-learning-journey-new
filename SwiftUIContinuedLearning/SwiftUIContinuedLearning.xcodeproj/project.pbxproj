@@ -39,6 +39,7 @@
 		148E8E852BAB1F6F005619AA /* DragGestureLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E8E842BAB1F6F005619AA /* DragGestureLearning.swift */; };
 		148E8E872BAB25DE005619AA /* DragGestureLearning2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148E8E862BAB25DE005619AA /* DragGestureLearning2.swift */; };
 		14A5D8E42BAD95D900F48A62 /* HashableLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A5D8E32BAD95D900F48A62 /* HashableLearning.swift */; };
+		14C861522BC55DAB00638943 /* DynamicTextAccessibilityLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C861512BC55DAB00638943 /* DynamicTextAccessibilityLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		148E8E842BAB1F6F005619AA /* DragGestureLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureLearning.swift; sourceTree = "<group>"; };
 		148E8E862BAB25DE005619AA /* DragGestureLearning2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureLearning2.swift; sourceTree = "<group>"; };
 		14A5D8E32BAD95D900F48A62 /* HashableLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableLearning.swift; sourceTree = "<group>"; };
+		14C861512BC55DAB00638943 /* DynamicTextAccessibilityLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextAccessibilityLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 		14192FA42BAA36CC000FA483 /* SwiftUIContinuedLearning */ = {
 			isa = PBXGroup;
 			children = (
+				14C861512BC55DAB00638943 /* DynamicTextAccessibilityLearning.swift */,
 				1463EE0E2BBB39720009E5E3 /* CustomPublishersAndSubscribersCombineLearning.swift */,
 				141D8B0B2BC487A000221160 /* FileManagerLearning.swift */,
 				144D1BD12BBAE2F000D3B339 /* TimersAndOnReceiveLearning.swift */,
@@ -359,6 +362,7 @@
 				146EF53E2BADACDE00511077 /* SortFilterMap.swift in Sources */,
 				14A5D8E42BAD95D900F48A62 /* HashableLearning.swift in Sources */,
 				146534D42BB226AF002539C0 /* CoreDataRelationshipsLearning.swift in Sources */,
+				14C861522BC55DAB00638943 /* DynamicTextAccessibilityLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
