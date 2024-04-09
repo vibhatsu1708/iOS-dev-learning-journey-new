@@ -34,6 +34,7 @@
 		146534D72BB228B5002539C0 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146534D52BB228B5002539C0 /* CoreDataContainer.xcdatamodeld */; };
 		14679AE52BC5E585005509EB /* AlignmentGuidesLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14679AE42BC5E585005509EB /* AlignmentGuidesLearning.swift */; };
 		14679AE72BC5E8F0005509EB /* VisualEffectModiferLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14679AE62BC5E8F0005509EB /* VisualEffectModiferLearning.swift */; };
+		1467CF4C2BC5F14900C6ECCA /* PagingScrollViewLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467CF4B2BC5F14900C6ECCA /* PagingScrollViewLearning.swift */; };
 		146EF53E2BADACDE00511077 /* SortFilterMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146EF53D2BADACDE00511077 /* SortFilterMap.swift */; };
 		1473668F2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1473668E2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift */; };
 		147A0A432BC56DD10037228A /* DynamicColorsAccessibilityLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A0A422BC56DD10037228A /* DynamicColorsAccessibilityLearning.swift */; };
@@ -93,6 +94,7 @@
 		146534D62BB228B5002539C0 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 		14679AE42BC5E585005509EB /* AlignmentGuidesLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuidesLearning.swift; sourceTree = "<group>"; };
 		14679AE62BC5E8F0005509EB /* VisualEffectModiferLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectModiferLearning.swift; sourceTree = "<group>"; };
+		1467CF4B2BC5F14900C6ECCA /* PagingScrollViewLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingScrollViewLearning.swift; sourceTree = "<group>"; };
 		146EF53D2BADACDE00511077 /* SortFilterMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMap.swift; sourceTree = "<group>"; };
 		1473668E2BBA1814005D6AD8 /* DownloadJsonWithEscapingLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadJsonWithEscapingLearning.swift; sourceTree = "<group>"; };
 		147A0A422BC56DD10037228A /* DynamicColorsAccessibilityLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicColorsAccessibilityLearning.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 		14192F992BAA36CC000FA483 = {
 			isa = PBXGroup;
 			children = (
+				1467CF4B2BC5F14900C6ECCA /* PagingScrollViewLearning.swift */,
 				14679AE62BC5E8F0005509EB /* VisualEffectModiferLearning.swift */,
 				14679AE42BC5E585005509EB /* AlignmentGuidesLearning.swift */,
 				147A0A422BC56DD10037228A /* DynamicColorsAccessibilityLearning.swift */,
@@ -357,6 +360,7 @@
 				148720B12BACC2630072EC9B /* LocalNotificationsLearning.swift in Sources */,
 				147A0A432BC56DD10037228A /* DynamicColorsAccessibilityLearning.swift in Sources */,
 				1463EE0F2BBB39720009E5E3 /* CustomPublishersAndSubscribersCombineLearning.swift in Sources */,
+				1467CF4C2BC5F14900C6ECCA /* PagingScrollViewLearning.swift in Sources */,
 				14192FA62BAA36CC000FA483 /* SwiftUIContinuedLearningApp.swift in Sources */,
 				1408366F2BB88C8000AC0724 /* CodableLearning.swift in Sources */,
 				14192FD02BAA3720000FA483 /* OnLongPressGesture.swift in Sources */,
