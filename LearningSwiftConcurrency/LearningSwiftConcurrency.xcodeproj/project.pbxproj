@@ -21,6 +21,7 @@
 		14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */; };
 		14E94C0D2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E94C0C2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift */; };
 		14F22CA22BCF19FE006EAE9B /* AsyncLetLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F22CA12BCF19FE006EAE9B /* AsyncLetLearning.swift */; };
+		14F22CA42BCF20F2006EAE9B /* TaskGroupLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F22CA32BCF20F2006EAE9B /* TaskGroupLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		14E94C0C2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesUsingAsyncAwaitLearning.swift; sourceTree = "<group>"; };
 		14F22CA12BCF19FE006EAE9B /* AsyncLetLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetLearning.swift; sourceTree = "<group>"; };
+		14F22CA32BCF20F2006EAE9B /* TaskGroupLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		14D14EB82B97AB1400F90F58 = {
 			isa = PBXGroup;
 			children = (
+				14F22CA32BCF20F2006EAE9B /* TaskGroupLearning.swift */,
 				14F22CA12BCF19FE006EAE9B /* AsyncLetLearning.swift */,
 				1445220C2BBD9039001FD6A7 /* TaskLearning.swift */,
 				143AB1112BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift */,
@@ -288,6 +291,7 @@
 			files = (
 				1445220D2BBD9039001FD6A7 /* TaskLearning.swift in Sources */,
 				141FCD322BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift in Sources */,
+				14F22CA42BCF20F2006EAE9B /* TaskGroupLearning.swift in Sources */,
 				14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */,
 				14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */,
 				14108E172BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift in Sources */,
