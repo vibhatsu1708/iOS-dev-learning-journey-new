@@ -20,6 +20,7 @@
 		14D14EE22B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */; };
 		14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */; };
 		14E94C0D2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E94C0C2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift */; };
+		14F22CA22BCF19FE006EAE9B /* AsyncLetLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F22CA12BCF19FE006EAE9B /* AsyncLetLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		14D14EE12B97AB1600F90F58 /* LearningSwiftConcurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		14D14EEE2B97ABB600F90F58 /* DoCatchTryThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrows.swift; sourceTree = "<group>"; };
 		14E94C0C2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadingImagesUsingAsyncAwaitLearning.swift; sourceTree = "<group>"; };
+		14F22CA12BCF19FE006EAE9B /* AsyncLetLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		14D14EB82B97AB1400F90F58 = {
 			isa = PBXGroup;
 			children = (
+				14F22CA12BCF19FE006EAE9B /* AsyncLetLearning.swift */,
 				1445220C2BBD9039001FD6A7 /* TaskLearning.swift */,
 				143AB1112BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift */,
 				14108E162BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift */,
@@ -291,6 +294,7 @@
 				14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */,
 				143AB1122BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift in Sources */,
 				14E94C0D2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift in Sources */,
+				14F22CA22BCF19FE006EAE9B /* AsyncLetLearning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
