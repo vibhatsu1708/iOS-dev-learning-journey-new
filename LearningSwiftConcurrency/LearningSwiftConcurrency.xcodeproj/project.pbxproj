@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		14108E172BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14108E162BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift */; };
 		141FCD322BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */; };
+		142D03F92BD45E68009AFEAD /* ActorLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142D03F82BD45E68009AFEAD /* ActorLearning.swift */; };
 		143AB1122BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143AB1112BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift */; };
 		1445220D2BBD9039001FD6A7 /* TaskLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445220C2BBD9039001FD6A7 /* TaskLearning.swift */; };
 		146C3D952BCFE99D00A91090 /* ContinuationsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		14108E162BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDoTryCatchThrowsLearning.swift; sourceTree = "<group>"; };
 		141FCD312BA70B40008A4793 /* AsyncAwaitDownloadingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitDownloadingImages.swift; sourceTree = "<group>"; };
+		142D03F82BD45E68009AFEAD /* ActorLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorLearning.swift; sourceTree = "<group>"; };
 		143AB1112BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitKeywordsLearning.swift; sourceTree = "<group>"; };
 		1445220C2BBD9039001FD6A7 /* TaskLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskLearning.swift; sourceTree = "<group>"; };
 		146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsLearning.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		14D14EB82B97AB1400F90F58 = {
 			isa = PBXGroup;
 			children = (
+				142D03F82BD45E68009AFEAD /* ActorLearning.swift */,
 				14F9DE982BD0728100D2239F /* StructClassActorLearning.swift */,
 				146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */,
 				14F22CA32BCF20F2006EAE9B /* TaskGroupLearning.swift */,
@@ -302,6 +305,7 @@
 				14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */,
 				14F9DE992BD0728100D2239F /* StructClassActorLearning.swift in Sources */,
 				14108E172BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift in Sources */,
+				142D03F92BD45E68009AFEAD /* ActorLearning.swift in Sources */,
 				14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */,
 				146C3D952BCFE99D00A91090 /* ContinuationsLearning.swift in Sources */,
 				143AB1122BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift in Sources */,
