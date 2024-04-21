@@ -13,6 +13,7 @@
 		142D03FB2BD469AF009AFEAD /* GlobalActorsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142D03FA2BD469AF009AFEAD /* GlobalActorsLearning.swift */; };
 		143AB1122BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143AB1112BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift */; };
 		1445220D2BBD9039001FD6A7 /* TaskLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1445220C2BBD9039001FD6A7 /* TaskLearning.swift */; };
+		145512F02BD5363900E141CB /* SendableProtocolLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145512EF2BD5363900E141CB /* SendableProtocolLearning.swift */; };
 		146C3D952BCFE99D00A91090 /* ContinuationsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */; };
 		14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */; };
 		14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC62B97AB1400F90F58 /* ContentView.swift */; };
@@ -52,6 +53,7 @@
 		142D03FA2BD469AF009AFEAD /* GlobalActorsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorsLearning.swift; sourceTree = "<group>"; };
 		143AB1112BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitKeywordsLearning.swift; sourceTree = "<group>"; };
 		1445220C2BBD9039001FD6A7 /* TaskLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskLearning.swift; sourceTree = "<group>"; };
+		145512EF2BD5363900E141CB /* SendableProtocolLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableProtocolLearning.swift; sourceTree = "<group>"; };
 		146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsLearning.swift; sourceTree = "<group>"; };
 		14D14EC12B97AB1400F90F58 /* LearningSwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyApp.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		14D14EB82B97AB1400F90F58 = {
 			isa = PBXGroup;
 			children = (
+				145512EF2BD5363900E141CB /* SendableProtocolLearning.swift */,
 				142D03FA2BD469AF009AFEAD /* GlobalActorsLearning.swift */,
 				142D03F82BD45E68009AFEAD /* ActorLearning.swift */,
 				14F9DE982BD0728100D2239F /* StructClassActorLearning.swift */,
@@ -306,6 +309,7 @@
 				14F22CA42BCF20F2006EAE9B /* TaskGroupLearning.swift in Sources */,
 				14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */,
 				14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */,
+				145512F02BD5363900E141CB /* SendableProtocolLearning.swift in Sources */,
 				14F9DE992BD0728100D2239F /* StructClassActorLearning.swift in Sources */,
 				14108E172BBB5B2F0058FE3F /* NewDoTryCatchThrowsLearning.swift in Sources */,
 				142D03F92BD45E68009AFEAD /* ActorLearning.swift in Sources */,
