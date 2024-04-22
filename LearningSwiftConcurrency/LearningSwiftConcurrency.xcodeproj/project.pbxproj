@@ -17,6 +17,7 @@
 		144DA3C92BD5BC000045B4CF /* AsyncAwaitStrongWeakReferencesLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DA3C82BD5BC000045B4CF /* AsyncAwaitStrongWeakReferencesLearning.swift */; };
 		145512F02BD5363900E141CB /* SendableProtocolLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145512EF2BD5363900E141CB /* SendableProtocolLearning.swift */; };
 		146C3D952BCFE99D00A91090 /* ContinuationsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */; };
+		148081512BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148081502BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift */; };
 		14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */; };
 		14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC62B97AB1400F90F58 /* ContentView.swift */; };
 		14D14EC92B97AB1600F90F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D14EC82B97AB1600F90F58 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		144DA3C82BD5BC000045B4CF /* AsyncAwaitStrongWeakReferencesLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitStrongWeakReferencesLearning.swift; sourceTree = "<group>"; };
 		145512EF2BD5363900E141CB /* SendableProtocolLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableProtocolLearning.swift; sourceTree = "<group>"; };
 		146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsLearning.swift; sourceTree = "<group>"; };
+		148081502BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMwithAsyncAwaitLearning.swift; sourceTree = "<group>"; };
 		14D14EC12B97AB1400F90F58 /* LearningSwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		14D14EC62B97AB1400F90F58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		14D14EB82B97AB1400F90F58 = {
 			isa = PBXGroup;
 			children = (
+				148081502BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift */,
 				144DA3C82BD5BC000045B4CF /* AsyncAwaitStrongWeakReferencesLearning.swift */,
 				144DA3C62BD5B4250045B4CF /* AsyncPublisherLearning.swift */,
 				145512EF2BD5363900E141CB /* SendableProtocolLearning.swift */,
@@ -316,6 +319,7 @@
 				144DA3C72BD5B4250045B4CF /* AsyncPublisherLearning.swift in Sources */,
 				14D14EEF2B97ABB600F90F58 /* DoCatchTryThrows.swift in Sources */,
 				144DA3C92BD5BC000045B4CF /* AsyncAwaitStrongWeakReferencesLearning.swift in Sources */,
+				148081512BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift in Sources */,
 				14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */,
 				145512F02BD5363900E141CB /* SendableProtocolLearning.swift in Sources */,
 				14F9DE992BD0728100D2239F /* StructClassActorLearning.swift in Sources */,
