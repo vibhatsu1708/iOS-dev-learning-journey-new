@@ -100,7 +100,7 @@ final class StrongWeakReferencesViewModel: ObservableObject {
 struct AsyncAwaitStrongWeakReferencesLearning: View {
     @StateObject var viewModel = StrongWeakReferencesViewModel()
     
-    var body: some View {s̄
+    var body: some View {
         Text(viewModel.data)
             .onAppear {
                 viewModel.updateData1()
