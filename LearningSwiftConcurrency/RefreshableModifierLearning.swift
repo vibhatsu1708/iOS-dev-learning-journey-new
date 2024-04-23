@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-// When using the refreshable modifier, mark the function which you are calling under the refreshable as async because the modifer is meant to work with async, so when you do do that, it will actually make the loading progress view linger around until that data is loaded giving a good effect for the data load, once the scrollview or list has been pulled down and let go.
+// When using the refreshable modifier, mark the function which you are calling under the refreshable as async because the modifer is meant to work with async, so when you do do that, it will actually make the loading progress view linger around until that data is loaded giving a good effect for the data load, once the scrollview or list has been pulled down and let go.mmm
 
 final class RefreshableModifierDataService {
     func getData() async throws -> [String] {

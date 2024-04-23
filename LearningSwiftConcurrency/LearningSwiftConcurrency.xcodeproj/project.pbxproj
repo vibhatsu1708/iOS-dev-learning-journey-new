@@ -19,6 +19,7 @@
 		146C3D952BCFE99D00A91090 /* ContinuationsLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */; };
 		148081512BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148081502BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift */; };
 		148081532BD7106200CD58A8 /* RefreshableModifierLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148081522BD7106200CD58A8 /* RefreshableModifierLearning.swift */; };
+		14BC51EC2BD85F75005AA806 /* SearchableSearchScopesLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BC51EB2BD85F75005AA806 /* SearchableSearchScopesLearning.swift */; };
 		14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */; };
 		14D14EC72B97AB1400F90F58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D14EC62B97AB1400F90F58 /* ContentView.swift */; };
 		14D14EC92B97AB1600F90F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D14EC82B97AB1600F90F58 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		146C3D942BCFE99D00A91090 /* ContinuationsLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsLearning.swift; sourceTree = "<group>"; };
 		148081502BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMwithAsyncAwaitLearning.swift; sourceTree = "<group>"; };
 		148081522BD7106200CD58A8 /* RefreshableModifierLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableModifierLearning.swift; sourceTree = "<group>"; };
+		14BC51EB2BD85F75005AA806 /* SearchableSearchScopesLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableSearchScopesLearning.swift; sourceTree = "<group>"; };
 		14D14EC12B97AB1400F90F58 /* LearningSwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D14EC42B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		14D14EC62B97AB1400F90F58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		14D14EB82B97AB1400F90F58 = {
 			isa = PBXGroup;
 			children = (
+				14BC51EB2BD85F75005AA806 /* SearchableSearchScopesLearning.swift */,
 				148081522BD7106200CD58A8 /* RefreshableModifierLearning.swift */,
 				148081502BD70C8E00CD58A8 /* MVVMwithAsyncAwaitLearning.swift */,
 				144DA3C82BD5BC000045B4CF /* AsyncAwaitStrongWeakReferencesLearning.swift */,
@@ -332,6 +335,7 @@
 				142D03FB2BD469AF009AFEAD /* GlobalActorsLearning.swift in Sources */,
 				14D14EC52B97AB1400F90F58 /* LearningSwiftConcurrencyApp.swift in Sources */,
 				146C3D952BCFE99D00A91090 /* ContinuationsLearning.swift in Sources */,
+				14BC51EC2BD85F75005AA806 /* SearchableSearchScopesLearning.swift in Sources */,
 				143AB1122BBC3BE000B16B69 /* AsyncAwaitKeywordsLearning.swift in Sources */,
 				14E94C0D2BBC162E0052E42D /* DownloadingImagesUsingAsyncAwaitLearning.swift in Sources */,
 				14F22CA22BCF19FE006EAE9B /* AsyncLetLearning.swift in Sources */,
