@@ -23,7 +23,7 @@ struct GeometryReaderLearning: View {
                     GeometryReader { geomtry in
                         RoundedRectangle(cornerRadius: 20)
                             .rotation3DEffect(
-                                Angle(degrees: getPercentage(geometry: geomtry) * 40), axis: (x: 0.0, y: 1.0, z: 0.0))
+                                Angle(degrees: getPercentage(geometry: geomtry) * 50), axis: (x: 0.0, y: 1.0, z: 0.0))
                     }
                     .frame(width: 300, height: 250)
                     .foregroundStyle(Color.blue)
