@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140F53782C2ED95900A1CCF7 /* AllTeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140F53772C2ED95900A1CCF7 /* AllTeamsViewModel.swift */; };
+		140F537A2C2ED96500A1CCF7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140F53792C2ED96500A1CCF7 /* Team.swift */; };
+		140F537C2C2EDFAD00A1CCF7 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140F537B2C2EDFAD00A1CCF7 /* TeamTableViewCell.swift */; };
+		14A0BA412C315E1300DAF9ED /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A0BA402C315E1300DAF9ED /* DetailsScreen.swift */; };
+		14CFC0DF2C2D8436006443CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC0DE2C2D8436006443CB /* AppDelegate.swift */; };
+		14CFC0E12C2D8436006443CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC0E02C2D8436006443CB /* SceneDelegate.swift */; };
+		14CFC0E32C2D8436006443CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC0E22C2D8436006443CB /* ViewController.swift */; };
+		14CFC0E82C2D8437006443CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CFC0E72C2D8437006443CB /* Assets.xcassets */; };
+		14CFC0EB2C2D8437006443CB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 14CFC0EA2C2D8437006443CB /* Base */; };
+		14CFC0F62C2D8437006443CB /* FormulaOneEpicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC0F52C2D8437006443CB /* FormulaOneEpicTests.swift */; };
+		14CFC1002C2D8437006443CB /* FormulaOneEpicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC0FF2C2D8437006443CB /* FormulaOneEpicUITests.swift */; };
+		14CFC1022C2D8437006443CB /* FormulaOneEpicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC1012C2D8437006443CB /* FormulaOneEpicUITestsLaunchTests.swift */; };
+		14CFC10F2C2D84BF006443CB /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC10E2C2D84BF006443CB /* FirstScreen.swift */; };
+		14CFC1152C2D9291006443CB /* TeamType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC1142C2D9291006443CB /* TeamType.swift */; };
+		14CFC1172C2D92BF006443CB /* AllTeamsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CFC1162C2D92BF006443CB /* AllTeamsScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14CFC0F22C2D8437006443CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CFC0D32C2D8436006443CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CFC0DA2C2D8436006443CB;
+			remoteInfo = FormulaOneEpic;
+		};
+		14CFC0FC2C2D8437006443CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CFC0D32C2D8436006443CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14CFC0DA2C2D8436006443CB;
+			remoteInfo = FormulaOneEpic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140F53772C2ED95900A1CCF7 /* AllTeamsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTeamsViewModel.swift; sourceTree = "<group>"; };
+		140F53792C2ED96500A1CCF7 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		140F537B2C2EDFAD00A1CCF7 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		14A0BA402C315E1300DAF9ED /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
+		14CFC0DB2C2D8436006443CB /* FormulaOneEpic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormulaOneEpic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CFC0DE2C2D8436006443CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14CFC0E02C2D8436006443CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14CFC0E22C2D8436006443CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14CFC0E72C2D8437006443CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CFC0EA2C2D8437006443CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CFC0EC2C2D8437006443CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CFC0F12C2D8437006443CB /* FormulaOneEpicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormulaOneEpicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CFC0F52C2D8437006443CB /* FormulaOneEpicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaOneEpicTests.swift; sourceTree = "<group>"; };
+		14CFC0FB2C2D8437006443CB /* FormulaOneEpicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormulaOneEpicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CFC0FF2C2D8437006443CB /* FormulaOneEpicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaOneEpicUITests.swift; sourceTree = "<group>"; };
+		14CFC1012C2D8437006443CB /* FormulaOneEpicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulaOneEpicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14CFC10E2C2D84BF006443CB /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		14CFC1142C2D9291006443CB /* TeamType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamType.swift; sourceTree = "<group>"; };
+		14CFC1162C2D92BF006443CB /* AllTeamsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTeamsScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CFC0D82C2D8436006443CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFC0EE2C2D8437006443CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFC0F82C2D8437006443CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14A0BA3E2C31554200DAF9ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14CFC10E2C2D84BF006443CB /* FirstScreen.swift */,
+				14CFC1162C2D92BF006443CB /* AllTeamsScreen.swift */,
+				140F537B2C2EDFAD00A1CCF7 /* TeamTableViewCell.swift */,
+				14A0BA402C315E1300DAF9ED /* DetailsScreen.swift */,
+				14CFC0E22C2D8436006443CB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		14A0BA3F2C31557400DAF9ED /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				140F53772C2ED95900A1CCF7 /* AllTeamsViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		14CFC0D22C2D8436006443CB = {
+			isa = PBXGroup;
+			children = (
+				14CFC0DD2C2D8436006443CB /* FormulaOneEpic */,
+				14CFC0F42C2D8437006443CB /* FormulaOneEpicTests */,
+				14CFC0FE2C2D8437006443CB /* FormulaOneEpicUITests */,
+				14CFC0DC2C2D8436006443CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CFC0DC2C2D8436006443CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CFC0DB2C2D8436006443CB /* FormulaOneEpic.app */,
+				14CFC0F12C2D8437006443CB /* FormulaOneEpicTests.xctest */,
+				14CFC0FB2C2D8437006443CB /* FormulaOneEpicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CFC0DD2C2D8436006443CB /* FormulaOneEpic */ = {
+			isa = PBXGroup;
+			children = (
+				14CFC0DE2C2D8436006443CB /* AppDelegate.swift */,
+				14CFC0E02C2D8436006443CB /* SceneDelegate.swift */,
+				14A0BA3E2C31554200DAF9ED /* Controllers */,
+				14CFC1142C2D9291006443CB /* TeamType.swift */,
+				14A0BA3F2C31557400DAF9ED /* View Model */,
+				140F53792C2ED96500A1CCF7 /* Team.swift */,
+				14CFC0E72C2D8437006443CB /* Assets.xcassets */,
+				14CFC0E92C2D8437006443CB /* LaunchScreen.storyboard */,
+				14CFC0EC2C2D8437006443CB /* Info.plist */,
+			);
+			path = FormulaOneEpic;
+			sourceTree = "<group>";
+		};
+		14CFC0F42C2D8437006443CB /* FormulaOneEpicTests */ = {
+			isa = PBXGroup;
+			children = (
+				14CFC0F52C2D8437006443CB /* FormulaOneEpicTests.swift */,
+			);
+			path = FormulaOneEpicTests;
+			sourceTree = "<group>";
+		};
+		14CFC0FE2C2D8437006443CB /* FormulaOneEpicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14CFC0FF2C2D8437006443CB /* FormulaOneEpicUITests.swift */,
+				14CFC1012C2D8437006443CB /* FormulaOneEpicUITestsLaunchTests.swift */,
+			);
+			path = FormulaOneEpicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CFC0DA2C2D8436006443CB /* FormulaOneEpic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CFC1052C2D8437006443CB /* Build configuration list for PBXNativeTarget "FormulaOneEpic" */;
+			buildPhases = (
+				14CFC0D72C2D8436006443CB /* Sources */,
+				14CFC0D82C2D8436006443CB /* Frameworks */,
+				14CFC0D92C2D8436006443CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormulaOneEpic;
+			productName = FormulaOneEpic;
+			productReference = 14CFC0DB2C2D8436006443CB /* FormulaOneEpic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14CFC0F02C2D8437006443CB /* FormulaOneEpicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CFC1082C2D8437006443CB /* Build configuration list for PBXNativeTarget "FormulaOneEpicTests" */;
+			buildPhases = (
+				14CFC0ED2C2D8437006443CB /* Sources */,
+				14CFC0EE2C2D8437006443CB /* Frameworks */,
+				14CFC0EF2C2D8437006443CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CFC0F32C2D8437006443CB /* PBXTargetDependency */,
+			);
+			name = FormulaOneEpicTests;
+			productName = FormulaOneEpicTests;
+			productReference = 14CFC0F12C2D8437006443CB /* FormulaOneEpicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14CFC0FA2C2D8437006443CB /* FormulaOneEpicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CFC10B2C2D8437006443CB /* Build configuration list for PBXNativeTarget "FormulaOneEpicUITests" */;
+			buildPhases = (
+				14CFC0F72C2D8437006443CB /* Sources */,
+				14CFC0F82C2D8437006443CB /* Frameworks */,
+				14CFC0F92C2D8437006443CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14CFC0FD2C2D8437006443CB /* PBXTargetDependency */,
+			);
+			name = FormulaOneEpicUITests;
+			productName = FormulaOneEpicUITests;
+			productReference = 14CFC0FB2C2D8437006443CB /* FormulaOneEpicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CFC0D32C2D8436006443CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					14CFC0DA2C2D8436006443CB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					14CFC0F02C2D8437006443CB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 14CFC0DA2C2D8436006443CB;
+					};
+					14CFC0FA2C2D8437006443CB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 14CFC0DA2C2D8436006443CB;
+					};
+				};
+			};
+			buildConfigurationList = 14CFC0D62C2D8436006443CB /* Build configuration list for PBXProject "FormulaOneEpic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CFC0D22C2D8436006443CB;
+			productRefGroup = 14CFC0DC2C2D8436006443CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CFC0DA2C2D8436006443CB /* FormulaOneEpic */,
+				14CFC0F02C2D8437006443CB /* FormulaOneEpicTests */,
+				14CFC0FA2C2D8437006443CB /* FormulaOneEpicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CFC0D92C2D8436006443CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFC0E82C2D8437006443CB /* Assets.xcassets in Resources */,
+				14CFC0EB2C2D8437006443CB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFC0EF2C2D8437006443CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFC0F92C2D8437006443CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CFC0D72C2D8436006443CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFC1152C2D9291006443CB /* TeamType.swift in Sources */,
+				14CFC10F2C2D84BF006443CB /* FirstScreen.swift in Sources */,
+				14A0BA412C315E1300DAF9ED /* DetailsScreen.swift in Sources */,
+				14CFC1172C2D92BF006443CB /* AllTeamsScreen.swift in Sources */,
+				14CFC0E32C2D8436006443CB /* ViewController.swift in Sources */,
+				140F537A2C2ED96500A1CCF7 /* Team.swift in Sources */,
+				140F53782C2ED95900A1CCF7 /* AllTeamsViewModel.swift in Sources */,
+				14CFC0DF2C2D8436006443CB /* AppDelegate.swift in Sources */,
+				140F537C2C2EDFAD00A1CCF7 /* TeamTableViewCell.swift in Sources */,
+				14CFC0E12C2D8436006443CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFC0ED2C2D8437006443CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFC0F62C2D8437006443CB /* FormulaOneEpicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFC0F72C2D8437006443CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFC1002C2D8437006443CB /* FormulaOneEpicUITests.swift in Sources */,
+				14CFC1022C2D8437006443CB /* FormulaOneEpicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14CFC0F32C2D8437006443CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CFC0DA2C2D8436006443CB /* FormulaOneEpic */;
+			targetProxy = 14CFC0F22C2D8437006443CB /* PBXContainerItemProxy */;
+		};
+		14CFC0FD2C2D8437006443CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14CFC0DA2C2D8436006443CB /* FormulaOneEpic */;
+			targetProxy = 14CFC0FC2C2D8437006443CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14CFC0E92C2D8437006443CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CFC0EA2C2D8437006443CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CFC1032C2D8437006443CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14CFC1042C2D8437006443CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CFC1062C2D8437006443CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FormulaOneEpic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.FormulaOneEpic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CFC1072C2D8437006443CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FormulaOneEpic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.FormulaOneEpic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14CFC1092C2D8437006443CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.FormulaOneEpicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormulaOneEpic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FormulaOneEpic";
+			};
+			name = Debug;
+		};
+		14CFC10A2C2D8437006443CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.FormulaOneEpicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormulaOneEpic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FormulaOneEpic";
+			};
+			name = Release;
+		};
+		14CFC10C2C2D8437006443CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.FormulaOneEpicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FormulaOneEpic;
+			};
+			name = Debug;
+		};
+		14CFC10D2C2D8437006443CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39X532FCX5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vedantmistry.FormulaOneEpicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FormulaOneEpic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CFC0D62C2D8436006443CB /* Build configuration list for PBXProject "FormulaOneEpic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CFC1032C2D8437006443CB /* Debug */,
+				14CFC1042C2D8437006443CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CFC1052C2D8437006443CB /* Build configuration list for PBXNativeTarget "FormulaOneEpic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CFC1062C2D8437006443CB /* Debug */,
+				14CFC1072C2D8437006443CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CFC1082C2D8437006443CB /* Build configuration list for PBXNativeTarget "FormulaOneEpicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CFC1092C2D8437006443CB /* Debug */,
+				14CFC10A2C2D8437006443CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CFC10B2C2D8437006443CB /* Build configuration list for PBXNativeTarget "FormulaOneEpicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CFC10C2C2D8437006443CB /* Debug */,
+				14CFC10D2C2D8437006443CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CFC0D32C2D8436006443CB /* Project object */;
+}
